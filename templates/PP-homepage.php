@@ -23,7 +23,7 @@ require('PP-header.php');
     <div class="carousel-wrapper">
         <div class="carousel-container">
             <div class="carousel">
-                <div class="image-1"></div>
+                <div class="image-"></div>
                 <div class="image-2"></div>
                 <div class="image-3"></div>
             </div>
