@@ -1,0 +1,52 @@
+.container-find-us{
+    display: flex;
+    margin: auto;
+}
+.find-us{
+    color: black;
+    text-align: center;
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #cccccc;
+    padding: 30px 15px 10px 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: large;
+}
+.find-us h3{
+    font-size: xx-large;
+}
+.city-find-us{
+    text-align: center;
+}
+.find-us p{
+    text-align: center;
+}
+.map{
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .find-us{width: 210px; height: 250px; font-size: medium; padding: 35px 15px 10px 15px;}  
+    iframe{width: 380px; height: 290px;}
+    .txt-find-us{font-size: 13px;}
+    .find-us h3{font-size: x-large;}
+}
+@media screen and (max-width: 800px) {
+    .find-us{width: 200px; height: 200px; font-size: small;padding: 25px 15px 10px 15px; }  
+    iframe{width: 300px; height: 250px;}
+    .txt-find-us{font-size: 11px;}
+    .find-us h3{font-size: x-large;}
+}
+@media screen and (max-width: 600px) {
+    .find-us{width: 210px; height: 170px; font-size: small;padding: 15px;}  
+    iframe{width: 300px; height: 200px;}
+    .container-find-us{display: inline-block; margin: auto;}
+    .map{margin-top: 10px;}
+    .foot{height: 80px;}
+}
+

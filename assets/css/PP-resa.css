@@ -1,0 +1,71 @@
+.container_resa{
+    margin-top: 10px;
+}
+.reservation{
+    color: black;
+    width: 660px;
+    height: 350px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: small;
+}
+.cont1{
+    padding-left: 25px;
+}
+.cont2{
+    padding-left: 10px;
+}
+.resa{
+    width: 100%;
+}
+.form-resa{
+    margin: auto;
+    padding: 10px 0px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-resa>div{
+    flex: 40%;
+}
+.reservation h3{
+    text-align: center;
+    font-size: x-large;
+}
+.form-resa input, .form-resa textarea{
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    width: 250px;
+    font-size: 16px;
+}
+.form-resa input[type="submit"] {
+    text-align: center;
+    width: auto;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+#Date_Resa{
+    color: grey;
+}
+.reserver{
+    width: 120px;
+    height: 40px;
+    font-size: x-large;
+}
+@media screen and (max-width: 900px) { 
+    .reservation {width: 500px;}
+    .form-resa input, .form-resa textarea{width: 180px;}
+    .cont1{padding-left: 15px;}
+    .cont2{padding-left: 25px;}
+}
+@media screen and (max-width: 600px) {
+    .reservation {width: 300px; height: 570px;}
+    .form-resa input, .form-resa textarea{width: 180px;}
+    .cont1{padding-left: 35px;}
+    .cont2{padding-left: 35px;}
+    .foot{height: 80px;}
+}

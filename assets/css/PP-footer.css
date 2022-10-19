@@ -1,0 +1,81 @@
+.footer {
+    position: absolute;
+    height: 25px;
+    bottom: 0;
+    padding: 1rem;
+    background-color: rgb(57, 56, 54);
+    color :white;
+    display: flex;
+    align-items: center;
+  }
+.iconres{
+    text-align: right;
+}
+.footer a{
+     text-decoration: none;
+     color: #fff;
+}
+.sante{
+    text-align: center;
+} 
+.iconr {
+    max-width: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pres {
+    width:33.33%;
+    display: inline-block;
+    margin-right: -0.25em;
+    vertical-align: middle;
+    
+    }
+  @media only screen and (max-width: 1472px){
+      .iconr{
+          max-width: 8%;
+      }
+    } 
+  @media only screen and (max-width: 934px){
+    .iconr{
+        max-width: 15%;
+    }
+  } 
+
+  @media only screen and (max-width: 758px){
+    .iconr{
+        max-width: 10%;
+    }
+  } 
+
+  @media only screen and (max-width: 600px){
+    .iconr{
+        max-width: 12%;
+    }
+    .footer{
+      height: 30px;
+    }
+    .mobfoot{
+      font-size:smaller;
+    }
+    .footermentions{
+      width: 24%;
+    }
+    .sante{
+      width: 24%;
+    }
+    .iconres{
+      width: 52%;
+    }
+    .iconres{
+      text-align: center;
+    }
+  } 
+
+  @media only screen and (max-width: 450px){
+    .iconr{
+        max-width: 10%;
+    }
+    .footer{
+      font-size: xx-small;
+    }
+  } 

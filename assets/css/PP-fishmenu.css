@@ -1,0 +1,117 @@
+.table-beermenu td {  
+    border-radius: 15px;
+    font-size: small;
+}
+.NAME_beer{
+    font-size: x-large;
+    text-align: left;
+}
+.desc_beer{
+    font-size: large;
+    text-align: justify;
+    padding: 15px;
+}
+.menum a{
+    text-decoration: none;
+}
+.table-beermenu {
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: small;
+    display: inline-flex;
+    border-radius: 10px;
+    color:white;
+    margin-bottom:2em;
+    width: 19%;
+    background-color:dimgray;
+}
+.table-beermenu img {
+    height: 170px;
+}
+.tr_img{
+    height: 170px;
+}
+#sous-blanche {
+    display: block;
+    margin: 4%;   
+}
+#sous-blonde {
+    display: none;
+    margin: 4%;  
+}
+#sous-ambree {
+    display: none;
+    margin: 4%;  
+}
+#sous-brune {
+    display: none;
+    margin: 4%;  
+}
+#sous-speciale {
+    display: none;
+    margin: 4%;  
+}
+@media (min-width: 1000px){  
+    .menum {
+        font-size: larger;
+    }
+}
+@media (min-width: 500px) and (max-width: 1580px) {  
+    .menum {
+        font-size: small;
+    }
+    table {
+    margin-bottom:1em;
+        width: 49%;
+    }
+}
+@media (max-width: 500px) {  
+    .menum {
+        font-size: x-small;
+    }
+    .menum li:hover {
+        transition: 0.3s ease;
+        letter-spacing: 1px;
+    }
+    table {
+    margin-bottom:1em;
+        width: 99%;
+    }
+    #sous-blanche {
+        padding-bottom: 50px;
+    }
+    #sous-blonde {
+        padding-bottom: 50px;
+    }
+    #sous-ambree {
+        padding-bottom: 50px;
+    }
+    #sous-brune {
+        padding-bottom: 50px;
+    }
+    #sous-speciale {
+        padding-bottom: 50px;
+    }
+}
+.menum a {
+    color: white;
+}
+#ablanche{
+    color: rgb(0, 0, 0);
+}
+.link {
+    text-decoration: none;
+    color: white;
+    list-style:none;
+}
+.menum {
+ text-decoration: none;
+ color: white;
+ list-style:none;
+ display: flex;
+ justify-content: center;
+ background-color: dimgray;
+}
+.menum li {
+ padding: 5px 14px;
+}
