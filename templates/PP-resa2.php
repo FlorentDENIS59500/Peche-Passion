@@ -45,7 +45,7 @@ $db = disconnectDb();
         $date = $_POST["Date_Resa"];
         $nombre_pers = $_POST["Nombre_Pers"];
         $sujet = "Votre réservation";
-        $message = "Bonjour $prenom $nom, nous vous confirmons votre r&eacute;servation du $date pour $nombre_pers personnes.\n\n Merci de votre confiance et à très bientôt.\n\n L'équipe Zerveza";
+        $message = "Bonjour $prenom $nom, nous vous confirmons votre r&eacute;servation du $date pour $nombre_pers personnes.\n\n Merci de votre confiance et à très bientôt.\n\n L'équipe Pêche Passion";
 
 
         $headers = "Content-Type: text/plain; charset=utf-8\r\n";

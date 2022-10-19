@@ -37,7 +37,7 @@ require('PP-header.php');
     </div>
     <div class="desc-pub">
         <div class="txt-pub">
-            <p>Zerveza, c'est l'histoire de rencontre entre passionnés de bonnes mousses. Au service de nos clients, les chopistes, nous nous occupons de dénicher, pour vous, les bières qui vous plairont, avec pour objectif de vous les proposer au meilleur prix. Zerveza, c'est aussi un décor, une ambiance et de la qualité. Nos équipes s'engagent à ce que les bières soient toujours servies à la température idéale, pour que vous en profitiez dans un cadre unique qui fait l'essence de l'ambiance Zerveza.</p>
+            <p>C'est l'histoire de rencontre entre passionnés de bonnes mousses. Au service de nos clients, les chopistes, nous nous occupons de dénicher, pour vous, les bières qui vous plairont, avec pour objectif de vous les proposer au meilleur prix. div4-legalnotice, c'est aussi un décor, une ambiance et de la qualité. Nos équipes s'engagent à ce que les bières soient toujours servies à la température idéale, pour que vous en profitiez dans un cadre unique qui fait l'essence de l'ambiance div4-legalnotice.</p>
         </div>
     </div>
     <div class="schedule-pub">
