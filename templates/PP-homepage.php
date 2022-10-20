@@ -4,7 +4,8 @@ require('PP-header.php');
 ?>
 <div class="container-homepage">
     <div class="title-beer-pub">
-        <div class="title-beer-second" style="text-align: center; padding-top: 10px; font-size: 80px;">
+        <div class="title-beer-second" style="text-align: center; font-size: 80px;">
+            <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
             <span class="P1">P</span>
             <span class="ê">ê</span>
             <span class="c">c</span>
@@ -18,22 +19,16 @@ require('PP-header.php');
             <span class="i">i</span>
             <span class="o">o</span>
             <span class="n">n</span>
+            <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">
         </div>
     </div>
-    <div class="carousel-wrapper">
-        <div class="carousel-container">
-            <div class="carousel">
-                <div class="image-"></div>
-                <div class="image-2"></div>
-                <div class="image-3"></div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="photo-pub">
-        <img src="../assets/img/Background/Peche-mouche2.png" alt="imghome">
-    </div> -->
-    <div class="photo-desc">
-        <img src="../assets/img/beer/shutterstock_113954089-beer.jpg" alt="imgbeer">
+    <div class="pic-ctn">
+        <img src="..\assets\img\background\brochet2.jpg" alt="img-brochet2" alt="" class="pic">
+        <img src="..\assets\img\background\coregone.jpg" alt="img-coregone" alt="" class="pic">
+        <img src="..\assets\img\background\chasse-brochet.jpg" alt="img-chasse-brochet" alt="" class="pic">
+        <img src="..\assets\img\background\espadon.png" alt="img-espadon" alt="" class="pic">
+        <img src="..\assets\img\background\brochet3.png" alt="img-brochet3" alt="" class="pic">
+        <img src="..\assets\img\background\peche-mouche.jpg" alt="img-peche-mouche" alt="" class="pic">
     </div>
     <div class="desc-pub">
         <div class="txt-pub">
