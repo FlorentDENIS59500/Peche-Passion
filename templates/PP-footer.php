@@ -1,10 +1,9 @@
-<div class="clear"></div>
 <div class="footer">
   <div class="footernotice pres mobfoot">
     <a href="PP-legalnotice.php">Mentions légales</a>
   </div>
   <div class="health pres mobfoot">
-    <p>L'abus d'alcool est <span onclick="window.location='PP-admin.php';">dangereux</span> pour la santé.</p>
+    <p>L'abus de pêche est <span onclick="window.location='PP-admin.php';">vivement conseillé</span> pour la santé.</p>
   </div>
   <div class="iconres pres">
     <a href=""><img class="iconr" src="../assets/img/icon/facebook.webp" alt="facebook"></a>

@@ -4,30 +4,16 @@ require('PP-header.php');
 ?>
 <div class="container-homepage">
     <div class="title-beer-pub">
-        <div class="title-beer-second" style="text-align: center; font-size: 80px;">
-            <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
-            <span class="P1">P</span>
-            <span class="ê">ê</span>
-            <span class="c">c</span>
-            <span class="h">h</span>
-            <span class="e">e</span>
-            <span class="esp1">§</span>
-            <span class="P2">P</span>
-            <span class="a">a</span>
-            <span class="s1">s</span>
-            <span class="s2">s</span>
-            <span class="i">i</span>
-            <span class="o">o</span>
-            <span class="n">n</span>
-            <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">
-        </div>
+        <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
+        <span class="title">Pêche Passion</span>
+        <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">
     </div>
     <div class="pic-ctn">
         <img src="..\assets\img\background\brochet2.jpg" alt="img-brochet2" alt="" class="pic">
         <img src="..\assets\img\background\coregone.jpg" alt="img-coregone" alt="" class="pic">
         <img src="..\assets\img\background\chasse-brochet.jpg" alt="img-chasse-brochet" alt="" class="pic">
         <img src="..\assets\img\background\espadon.png" alt="img-espadon" alt="" class="pic">
-        <img src="..\assets\img\background\brochet3.png" alt="img-brochet3" alt="" class="pic">
+        <img src="..\assets\img\background\sandre.jpg" alt="img-sandre" alt="" class="pic">
         <img src="..\assets\img\background\peche-mouche.jpg" alt="img-peche-mouche" alt="" class="pic">
     </div>
     <div class="desc-pub">

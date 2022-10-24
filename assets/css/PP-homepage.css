@@ -1,6 +1,4 @@
-.title-beer-second{
-    margin-top: 7px;
-}
+
 .title-beer-second-schedule{
     text-align: center;
     font-size: x-large;
@@ -11,168 +9,23 @@
     text-align: center;
 }
 .logo-wave1 {
-  width: 220px;
+  width: 12%;
   height: auto;
 }
 .logo-wave2 {
-  width: 220px;
+  width: 12%;
   height: auto;
 }
-.P1 {
-    transform: translate(23px, -55px) rotate(-45deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.ê {
-    transform: translate(13px, -80px) rotate(-25deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.c {
-    transform: translate(6px, -95px) rotate(-15deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.h {
-    transform: translate(3px, -103px) rotate(-5deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.e{
-    transform: translate(2px, -98px) rotate(5deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.esp1 {
-    transform: translate(1px, -100px) rotate(-5deg);
-    visibility: hidden;
-}
-.P2 {
-    transform: translate(0px, -80px) rotate(10deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.a {
-    transform: translate(-7px, -70px) rotate(7deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.s1 {
-    transform: translate(-7px, -60px) rotate(3deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.s2 {
-    transform: translate(-7px, -60px) rotate(-3deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.i {
-    transform: translate(-6px, -70px) rotate(-20deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.o {
-    transform: translate(-8px, -87px) rotate(-25deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.n {
-    transform: translate(-13px, -110px) rotate(-20deg);
-    color: transparent;
-	animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
-}
-.title-beer-second span {
+.title {
     display: inline-block;
     color: #22a3e3;
-    font-size: 65px;
-}
-span:nth-child(1) {
-	animation-delay: 0.2s;
-	-webkit-animation-delay: 0.2s;
-}
-span:nth-child(2) {
-	animation-delay: 0.4s;
-	-webkit-animation-delay: 0.4s;
-}
-span:nth-child(3) {
-	animation-delay: 0.6s;
-	-webkit-animation-delay: 0.6s;
-}
-span:nth-child(4) {
-	animation-delay: 0.8s;
-	-webkit-animation-delay: 0.8s;
-}
-span:nth-child(5) {
-	animation-delay: 1s;
-	-webkit-animation-delay: 1s;
-}
-span:nth-child(7) {
-	animation-delay: 1.2s;
-	-webkit-animation-delay: 1.2s;
-}
-span:nth-child(8) {
-	animation-delay: 1.4s;
-	-webkit-animation-delay: 1.4s;
-}
-span:nth-child(9) {
-	animation-delay: 1.6s;
-	-webkit-animation-delay: 1.6s;
-}
-span:nth-child(10) {
-	animation-delay: 1.8s;
-	-webkit-animation-delay: 1.8s;
-}
-span:nth-child(11) {
-	animation-delay: 2s;
-	-webkit-animation-delay: 2s;
-}
-span:nth-child(12) {
-	animation-delay: 2.2s;
-	-webkit-animation-delay: 2.2s;
-}
-span:nth-child(13) {
-	animation-delay: 2.4s;
-	-webkit-animation-delay: 2.4s;
-}
-@keyframes blur {
-	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
-	5%		{text-shadow:  0 0 90px #fff;}
-	15%		{opacity: 1;}
-	20%		{text-shadow:  0 0 0px #fff;}
-	80%		{text-shadow:  0 0 0px #fff;}
-	85%		{opacity: 1;}
-	95%		{text-shadow:  0 0 90px #fff;}
-	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
-}
-@-webkit-keyframes blur {
-	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
-	5%		{text-shadow:  0 0 90px #fff;}
-	15%		{opacity: 1;}
-	20%		{text-shadow:  0 0 0px #fff;}
-	80%		{text-shadow:  0 0 0px #fff;}
-	85%		{opacity: 1;}
-	95%		{text-shadow:  0 0 90px #fff;}
-	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+    letter-spacing: 5px;
 }
 .pic-ctn {
-    width: 1920px;
-    height: 800px;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    margin-top: 9.5%;
   }
-  
   @keyframes display {
     0% {
       transform: translateX(1920px);
@@ -195,8 +48,8 @@ span:nth-child(13) {
       opacity: 0;
     }
   }
-  
   .pic-ctn > img {
+    width: 100%;
     position: absolute;
     top: 0;
     opacity: 0;
@@ -219,73 +72,39 @@ span:nth-child(13) {
   }
 .txt-pub{
     color: black;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 20px;
+    padding-right: 10px;
 }
-@media screen and (max-width: 1100px) {
-    .txt-pub{padding: 10px; font-size: 12px;}
-    .title-beer-second span{font-size: 50px}
-    .title-beer-second_schedule-pub-second{font-size: large;}
-    .schedule-pub-second p{font-size: 11px}
-    .photo-desc {display: none;}
-    .schedule-pub-second {padding-top: 5px;} 
-}
-@media screen and (max-width: 600px) {
-    .txt-pub {padding: 10px; font-size: 10px}
-    .title-beer-second span{font-size: 30px}
-    .title-beer-second_schedule-pub-second{font-size: medium;}
-    .schedule-pub-second p{font-size: 10px}
-    .photo-desc {display: none;}
-}
-@media screen and (max-width: 380px) {
-    .txt-pub {padding: 10px; font-size: 9px}
-    .title-beer-second span{font-size: 20px}
-    .title-beer-second_schedule-pub-second{font-size: medium;}
-    .schedule-pub-second p{font-size: 9px}
-}
+
 .title-beer-pub{
     background-color: #c2eef8;
-}
-.photo-desc img{
-    width: 220px;
-    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .desc-pub{
-    height: 220px;
+    height: 240px;
     background-color: #cccccc;
+    margin-top: 80%;
+    text-align: justify;
 }
 .container-homepage {  
     display: grid; 
-  grid-template-columns: 0fr 1fr 0.8fr; 
-  grid-template-rows: 0fr 0fr 0fr 0.15fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "title-beer-pub title-beer-pub title-beer-pub"
-    "photo-pub photo-pub photo-pub"
-    "photo-desc desc-pub schedule-pub"
-    "footer_acc footer_acc footer_acc"; 
+    grid-template-columns: 0fr 1fr 0.8fr; 
+    grid-template-rows: 0fr 0fr 0fr 0.15fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "title-beer-pub title-beer-pub title-beer-pub"
+      "photo-pub photo-pub photo-pub"
+      "desc-pub desc-pub schedule-pub"; 
   }
-  
 .title-beer-pub {
     grid-area: title-beer-pub;
-    height: 180px;
-}
-.photo-pub { 
     text-align: center;
-    grid-area: photo-pub;
-    margin-bottom: 15px;
-    background-size: 100%;
-    background-color: #928d6f;
-    backdrop-filter: blur(5px);
-}
-.photo-desc {
-    grid-area: photo-desc;
-    width: 240px;
-    height: 220px;
-   
+    font-size: 70px;
 }
 .desc-pub { grid-area: desc-pub; }
-  
 .schedule-pub {
     display: grid; 
     grid-template-columns: 0fr 1fr 1fr; 
@@ -297,9 +116,30 @@ span:nth-child(13) {
       "time time time"; 
     grid-area: schedule-pub;
     background-color: #cccccc;
-    height: 220px;
+    height: 240px;
+    margin-top: 100%;
   }
-.schedule-pub-second { grid-area: schedule-pub-second; margin-top: 10px; }
+.schedule-pub-second { grid-area: schedule-pub-second; margin-top: 20px; border: 1px solid black; margin-right: 20%; margin-left: 20%; }
 .time { grid-area: time; }
-.footer_acc { grid-area: footer_acc; }
-.time{font-size: 15px;}
+.time{font-size: 15px; padding: 0px 10px 10px 10px}
+@media screen and (max-width: 1200px) {
+  .txt-pub{padding: 20px; font-size: 15px}
+  .title-beer-pub span{font-size: 50px}
+  .title-beer-second_schedule-pub-second{font-size: large}
+  .schedule-pub-second p{font-size: 13px}
+  .schedule-pub-second {margin-top: 20px}
+}
+@media screen and (max-width: 800px) {
+  .txt-pub {padding: 30px; font-size: 13px}
+  .title-beer-pub span{font-size: 30px}
+  .title-beer-second_schedule-pub-second{font-size: medium}
+  .schedule-pub-second p{font-size: 10px}
+  .schedule-pub-second {margin-top: 40px}
+}
+@media screen and (max-width: 600px) {
+  .txt-pub {padding: 35px; font-size: 10px}
+  .title-beer-second span{font-size: 20px}
+  .title-beer-second_schedule-pub-second{font-size: medium}
+  .schedule-pub-second p{font-size: 8px}
+  .schedule-pub-second {margin-top: 40px}
+}
