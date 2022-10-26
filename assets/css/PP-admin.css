@@ -1,45 +1,47 @@
-.add-beer, .show-resa, .connectadmin  {
-    color: black;
-    display: flex; 
-    justify-content: center;
-    padding: 15px;
-    text-align: center;
+.add-biere,
+.show-resa,
+.connectadmin {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
 }
 .form-label {
-    padding-right: 20px;
-    font-size: x-large;
+  padding-right: 20px;
+  font-size: x-large;
 }
-.adminform p{
-    color: black;
-    text-align: center;
+.adminform p {
+  color: black;
+  text-align: center;
 }
 .mb-3 {
-    color: black;
-    display: flex; 
-    justify-content: center;
-    padding: 25px;
-    width: 400px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 400px;
 }
 .form-admin-resa {
-    border-radius: 10px;
-    border: 1px solid   black; 
-    background-color: darkgrey;
-    padding: 20px 0px 20px 0px; 
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: darkgrey;
+  padding: 20px 0px 20px 0px;
 }
 .btn {
-    padding: 3px;
-    font-size: medium;
+  padding: 3px;
+  font-size: medium;
 }
 .form-select {
-    padding: 3px;
-    font-size: medium;
+  padding: 3px;
+  font-size: medium;
 }
 .title-show-resa {
-    font-size: xx-large;
+  font-size: xx-large;
 }
-.show-resa-title-beer-second {
-    text-align: center;
+.show-resa-title-biere-second {
+  text-align: center;
 }
 .form-del-resa {
-    text-align: center;
+  text-align: center;
 }

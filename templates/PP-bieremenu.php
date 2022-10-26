@@ -4,7 +4,7 @@ require('PP-header.php');
 require "../src/model.php";
 ?>
 <div class="menum">
-    <div id="nav-links-menubeer">
+    <div id="nav-links-menubiere">
         <ul class="menum">
             <li id="blanche"><a id="ablanche" class="links" href="#sous-blanche" onclick="sblanche()">Blanche</a></li>
             <li id="blonde"><a id="ablonde" class="links" href="#sous-blonde" onclick="sblonde()">Blonde</a></li>
@@ -18,21 +18,21 @@ require "../src/model.php";
     <article id="sous-blanche">
         <?php
         $db = connectDb();
-        $sqlRequest1 = 'SELECT * FROM beer WHERE TYPE_beer = "Blanche"';
+        $sqlRequest1 = 'SELECT * FROM beer WHERE TYPE_BIERE = "Blanche"';
         $sqlResponse = $db->prepare($sqlRequest1);
         $sqlResponse->execute();
         $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
         $db = disconnectDb();
-        foreach ($results as $beer) {
+        foreach ($results as $biere) {
         ?>
-            <table class="table-beermenu">
+            <table class="table-bieremenu">
                 <tbody>
                     <tr>
-                        <td class="img_beer"><img src="../assets/img/beer/<?= $beer->PHOTO_beer ?>" alt="Affiche de la bière<?= $beer->NAME_beer ?>"></td>
-                        <td class="NAME_beer"><?= $beer->NAME_beer ?></td>
+                        <td class="img_biere"><img src="../assets/img/biere/<?= $biere->PHOTO_BIERE ?>" alt="Affiche de la bière<?= $biere->NAME_BIERE ?>"></td>
+                        <td class="NAME_BIERE"><?= $biere->NAME_BIERE ?></td>
                     </tr>
                     <tr>
-                        <td class="desc_beer" colspan="2"><?= $beer->DESC_beer ?></td>
+                        <td class="desc_biere" colspan="2"><?= $biere->DESC_BIERE ?></td>
                 </tbody>
             </table>
         <?php
@@ -42,20 +42,20 @@ require "../src/model.php";
     <article id="sous-blonde">
         <?php
         $db = connectDb();
-        $sqlRequest2 = 'SELECT * FROM beer WHERE TYPE_beer = "Blonde"';
+        $sqlRequest2 = 'SELECT * FROM beer WHERE TYPE_BIERE = "Blonde"';
         $sqlResponse = $db->prepare($sqlRequest2);
         $sqlResponse->execute();
         $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
         $db = disconnectDb();
-        foreach ($results as $beer) {
+        foreach ($results as $biere) {
         ?>
-            <table class="table-beermenu">
+            <table class="table-bieremenu">
                 <tbody>
-                    <td class="img_beer"><img src="../assets/img/beer/<?= $beer->PHOTO_beer ?>" alt="Affiche de la beer<?= $beer->NAME_beer ?>"></td>
-                    <td class="NAME_beer"><?= $beer->NAME_beer ?></td>
+                    <td class="img_biere"><img src="../assets/img/Fish/<?= $biere->PHOTO_BIERE ?>" alt="Affiche de la biere<?= $biere->NAME_BIERE ?>"></td>
+                    <td class="NAME_BIERE"><?= $biere->NAME_BIERE ?></td>
                     </tr>
                     <tr>
-                        <td class="desc_beer" colspan="2"><?= $beer->DESC_beer ?></td>
+                        <td class="desc_biere" colspan="2"><?= $biere->DESC_BIERE ?></td>
                     </tr>
                 </tbody>
             </table>
@@ -66,20 +66,20 @@ require "../src/model.php";
     <article id="sous-ambree">
         <?php
         $db = connectDb();
-        $sqlRequest3 = 'SELECT * FROM beer WHERE TYPE_beer = "Ambrée"';
+        $sqlRequest3 = 'SELECT * FROM beer WHERE TYPE_BIERE = "Ambrée"';
         $sqlResponse = $db->prepare($sqlRequest3);
         $sqlResponse->execute();
         $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
         $db = disconnectDb();
-        foreach ($results as $beer) {
+        foreach ($results as $biere) {
         ?>
-            <table class="table-beermenu">
+            <table class="table-bieremenu">
                 <tbody>
-                    <td class="img_beer"><img src="../assets/img/beer/<?= $beer->PHOTO_beer ?>" alt="Affiche de la beer<?= $beer->NAME_beer ?>"></td>
-                    <td class="NAME_beer"><?= $beer->NAME_beer ?></td>
+                    <td class="img_biere"><img src="../assets/img/biere/<?= $biere->PHOTO_BIERE ?>" alt="Affiche de la biere<?= $biere->NAME_BIERE ?>"></td>
+                    <td class="NAME_BIERE"><?= $biere->NAME_BIERE ?></td>
                     </tr>
                     <tr>
-                        <td class="desc_beer" colspan="2"><?= $beer->DESC_beer ?></td>
+                        <td class="desc_biere" colspan="2"><?= $biere->DESC_BIERE ?></td>
                     </tr>
                 </tbody>
             </table>
@@ -90,20 +90,20 @@ require "../src/model.php";
     <article id="sous-brune">
         <?php
         $db = connectDb();
-        $sqlRequest4 = 'SELECT * FROM beer WHERE TYPE_beer = "Brune"';
+        $sqlRequest4 = 'SELECT * FROM beer WHERE TYPE_BIERE = "Brune"';
         $sqlResponse = $db->prepare($sqlRequest4);
         $sqlResponse->execute();
         $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
         $db = disconnectDb();
-        foreach ($results as $beer) {
+        foreach ($results as $biere) {
         ?>
-            <table class="table-beermenu">
+            <table class="table-bieremenu">
                 <tbody>
-                    <td class="img_beer"><img src="../assets/img/beer/<?= $beer->PHOTO_beer ?>" alt="Affiche de la beer<?= $beer->NAME_beer ?>"></td>
-                    <td class="NAME_beer"><?= $beer->NAME_beer ?></td>
+                    <td class="img_biere"><img src="../assets/img/biere/<?= $biere->PHOTO_BIERE ?>" alt="Affiche de la biere<?= $biere->NAME_BIERE ?>"></td>
+                    <td class="NAME_BIERE"><?= $biere->NAME_BIERE ?></td>
                     </tr>
                     <tr>
-                        <td class="desc_beer" colspan="2"><?= $beer->DESC_beer ?></td>
+                        <td class="desc_biere" colspan="2"><?= $biere->DESC_BIERE ?></td>
                     </tr>
                 </tbody>
             </table>
@@ -114,20 +114,20 @@ require "../src/model.php";
     <article id="sous-speciale">
         <?php
         $db = connectDb();
-        $sqlRequest5 = 'SELECT * FROM beer WHERE TYPE_beer = "Spéciale"';
+        $sqlRequest5 = 'SELECT * FROM beer WHERE TYPE_BIERE = "Spéciale"';
         $sqlResponse = $db->prepare($sqlRequest5);
         $sqlResponse->execute();
         $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
         $db = disconnectDb();
-        foreach ($results as $beer) {
+        foreach ($results as $biere) {
         ?>
-            <table class="table-beermenu">
+            <table class="table-bieremenu">
                 <tbody>
-                    <td class="img_beer"><img src="../assets/img/beer/<?= $beer->PHOTO_beer ?>" alt="Affiche de la beer<?= $beer->NAME_beer ?>"></td>
-                    <td class="NAME_beer"><?= $beer->NAME_beer ?></td>
+                    <td class="img_biere"><img src="../assets/img/biere/<?= $biere->PHOTO_BIERE ?>" alt="Affiche de la biere<?= $biere->NAME_BIERE ?>"></td>
+                    <td class="NAME_BIERE"><?= $biere->NAME_BIERE ?></td>
                     </tr>
                     <tr>
-                        <td class="desc_beer" colspan="2"><?= $beer->DESC_beer ?></td>
+                        <td class="desc_biere" colspan="2"><?= $biere->DESC_BIERE ?></td>
                     </tr>
                 </tbody>
             </table>

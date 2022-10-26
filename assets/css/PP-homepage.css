@@ -1,10 +1,10 @@
 
-.title-beer-second-schedule{
+.title-biere-second-schedule{
     text-align: center;
     font-size: x-large;
     margin-bottom: 15px;
 }
-.schedule-pub-second p{
+.schedule-second p{
     font-size: 13px;
     text-align: center;
 }
@@ -70,22 +70,22 @@
   img:nth-child(6) {
     animation-delay: 15s;
   }
-.txt-pub{
+.txt{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px;
     padding-right: 10px;
 }
 
-.title-beer-pub{
-    background-color: #c2eef8;
+.title-biere{
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.desc-pub{
+.desc{
     height: 240px;
-    background-color: #cccccc;
+    background-color: whitesmoke;
     margin-top: 80%;
     text-align: justify;
 }
@@ -95,51 +95,54 @@
     grid-template-rows: 0fr 0fr 0fr 0.15fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "title-beer-pub title-beer-pub title-beer-pub"
-      "photo-pub photo-pub photo-pub"
-      "desc-pub desc-pub schedule-pub"; 
+      "title-biere title-biere title-biere"
+      "photo photo photo"
+      "desc desc schedule"; 
   }
-.title-beer-pub {
-    grid-area: title-beer-pub;
+.title-biere {
+    grid-area: title-biere;
     text-align: center;
     font-size: 70px;
 }
-.desc-pub { grid-area: desc-pub; }
-.schedule-pub {
+.desc { grid-area: desc; }
+.schedule {
     display: grid; 
     grid-template-columns: 0fr 1fr 1fr; 
     grid-template-rows: 0.7fr 0.15fr 0.1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "schedule-pub-second schedule-pub-second schedule-pub-second"
+      "schedule-second schedule-second schedule-second"
       "time time time"
       "time time time"; 
-    grid-area: schedule-pub;
-    background-color: #cccccc;
+    grid-area: schedule;
+    background-color: whitesmoke;
     height: 240px;
     margin-top: 100%;
   }
-.schedule-pub-second { grid-area: schedule-pub-second; margin-top: 20px; border: 1px solid black; margin-right: 20%; margin-left: 20%; }
+.schedule-second { grid-area: schedule-second; margin-top: 20px; border: 1px solid black; margin-right: 20%; margin-left: 20%; }
 .time { grid-area: time; }
-.time{font-size: 15px; padding: 0px 10px 10px 10px}
+.time{font-size: 15px; padding: 0px 10px 10px 10px; letter-spacing: 3px;}
 @media screen and (max-width: 1200px) {
-  .txt-pub{padding: 20px; font-size: 15px}
-  .title-beer-pub span{font-size: 50px}
-  .title-beer-second_schedule-pub-second{font-size: large}
-  .schedule-pub-second p{font-size: 13px}
-  .schedule-pub-second {margin-top: 20px}
+  .txt{padding: 20px; font-size: 15px}
+  .title-biere span{font-size: 50px}
+  .title-biere-second_schedule-second{font-size: large}
+  .schedule-second p{font-size: 13px}
+  .schedule-second {margin-top: 20px}
+  .time{font-size: 13px; padding: 0px 10px 10px 10px; letter-spacing: 1px;}
 }
 @media screen and (max-width: 800px) {
-  .txt-pub {padding: 30px; font-size: 13px}
-  .title-beer-pub span{font-size: 30px}
-  .title-beer-second_schedule-pub-second{font-size: medium}
-  .schedule-pub-second p{font-size: 10px}
-  .schedule-pub-second {margin-top: 40px}
+  .txt {padding: 30px; font-size: 13px}
+  .title-biere span{font-size: 30px}
+  .title-biere-second_schedule-second{font-size: medium}
+  .schedule-second p{font-size: 10px}
+  .schedule-second {margin-top: 40px}
+  .time{font-size: 12px; padding: 0px 10px 10px 10px; letter-spacing: 0px;}
 }
 @media screen and (max-width: 600px) {
-  .txt-pub {padding: 35px; font-size: 10px}
-  .title-beer-second span{font-size: 20px}
-  .title-beer-second_schedule-pub-second{font-size: medium}
-  .schedule-pub-second p{font-size: 8px}
-  .schedule-pub-second {margin-top: 40px}
+  .txt {padding: 35px; font-size: 10px}
+  .title-biere-second span{font-size: 20px}
+  .title-biere-second_schedule-second{font-size: medium}
+  .schedule-second p{font-size: 8px}
+  .schedule-second {margin-top: 40px}
+  .time{font-size: 11px; padding: 0px 10px 10px 10px; letter-spacing: 0px;}
 }

@@ -2,7 +2,7 @@
 require_once "../src/model.php";
 
 $db = connectDb();
-require("PP-simple-auth.php");
+require("PP-Simple-Auth.php");
 $login = new Login;
 $login->authorize();
 $sqlRequest = 'SELECT * FROM Reservation ';

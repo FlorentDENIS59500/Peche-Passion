@@ -3,7 +3,7 @@ require("PP-head.php");
 require("PP-header.php");
 ?>
 <div class="container-legalnotice">
-    <div class="title-beer-legalnotice">
+    <div class="title-biere-legalnotice">
         <h1>Mentions légales</h1>
     </div>
 

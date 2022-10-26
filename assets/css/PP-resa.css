@@ -1,5 +1,6 @@
 .container_resa{
-    margin-top: 40px;
+    margin-top: 20px;
+    height: 460px;
 }
 .reservation{
     color: black;
@@ -9,7 +10,7 @@
     border-radius: 5px;
     margin: auto;
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: small;
 }
 .cont1{

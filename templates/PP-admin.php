@@ -3,7 +3,7 @@ require("PP-head.php");
 require_once "../src/model.php";
 
 
-require("PP-simple-auth.php");
+require("PP-Simple-Auth.php");
 $login = new Login;
 $login->authorize();
 

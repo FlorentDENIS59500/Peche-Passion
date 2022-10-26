@@ -139,7 +139,7 @@ class Login
     function prompt($msg = '')
     {
 
-        require('-header.php');
+        require('PP-header.php');
 ?>
         <div class="wrapper">
             <div class="highlight">

@@ -5,12 +5,12 @@
     grid-auto-flow: row;
     grid-template-areas:
       ". . . . . ."
-      ". . title-beer-legalnotice title-beer-legalnotice . ."
+      ". . title-biere-legalnotice title-biere-legalnotice . ."
       ". div1-legalnotice div1-legalnotice div2-legalnotice div2-legalnotice ."
       ". div3-legalnotice div3-legalnotice div3-legalnotice div3-legalnotice ."
       ". div4-legalnotice div4-legalnotice div4-legalnotice div4-legalnotice .";
   }
-  .title-beer-legalnotice { grid-area: title-beer-legalnotice; }
+  .title-biere-legalnotice { grid-area: title-biere-legalnotice; }
   
   .div1-legalnotice { grid-area: div1-legalnotice; }
   
@@ -25,7 +25,7 @@
     color: rgb(57, 56, 55);
     height: 100%;
   }
-  .title-beer-legalnotice{
+  .title-biere-legalnotice{
     text-align: center;
     text-transform: uppercase;
   }
@@ -45,7 +45,7 @@
         grid-auto-flow: row;
         grid-template-areas:
           ". . . . . ."
-          ". . title-beer-legalnotice title-beer-legalnotice . ."
+          ". . title-biere-legalnotice title-biere-legalnotice . ."
           ". div1-legalnotice div1-legalnotice div2-legalnotice div2-legalnotice ."
           ". div3-legalnotice div3-legalnotice div3-legalnotice div3-legalnotice ."
           ". div4-legalnotice div4-legalnotice div4-legalnotice div4-legalnotice .";
@@ -70,7 +70,7 @@
     grid-auto-flow: row;
     grid-template-areas:
       ". . . . . ."
-      ". . title-beer-legalnotice title-beer-legalnotice . ."
+      ". . title-biere-legalnotice title-biere-legalnotice . ."
       ". div1-legalnotice div1-legalnotice div2-legalnotice div2-legalnotice ."
       ". div3-legalnotice div3-legalnotice div3-legalnotice div3-legalnotice ."
       ". div4-legalnotice div4-legalnotice div4-legalnotice div4-legalnotice .";

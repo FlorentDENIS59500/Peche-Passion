@@ -14,9 +14,9 @@
 </div>
 </div>
 
-<script src="../assets/js/PP-beermenu.js"></script>
+<!-- <script src="../assets/js/PP-bieremenu.js"></script> -->
 <script src="../assets/js/PP-contact.js"></script>
-<script src="../assets/js/PP-footer.js"></script>
+<!-- <script src="../assets/js/PP-footer.js"></script> -->
 <script src="../assets/js/PP-header.js"></script>
 <script src="../assets/js/PP-resa.js"></script>
 

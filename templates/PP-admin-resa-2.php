@@ -2,7 +2,7 @@
 require_once "../src/model.php";
 $id_resa = '';
 $db = connectDb();
-require("PP-simple-auth.php");
+require("PP-Simple-Auth.php");
 $login = new Login;
 $login->authorize();
 if (isset($_POST["idresa"]) || ($_POST["idresa"] != "")) {
@@ -21,7 +21,7 @@ require("PP-head.php");
 <?php
 require('PP-header-admin.php');
 ?>
-<div class="show-resa-title-beer-second">
+<div class="show-resa-title-biere-second">
     <h4>Voici le détail de la reservation n° : <?= $id_resa ?></h4>
 </div>
 <div class="show-resa">

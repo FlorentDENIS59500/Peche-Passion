@@ -1,12 +1,12 @@
-.table-beermenu td {  
+.table-bieremenu td {  
     border-radius: 15px;
     font-size: small;
 }
-.NAME_beer{
+.NAME_BIERE{
     font-size: x-large;
     text-align: left;
 }
-.desc_beer{
+.desc_biere{
     font-size: large;
     text-align: justify;
     padding: 15px;
@@ -14,7 +14,7 @@
 .menum a{
     text-decoration: none;
 }
-.table-beermenu {
+.table-bieremenu {
     border: 1px solid #333;
     border-radius: 15px;
     font-size: small;
@@ -25,7 +25,7 @@
     width: 19%;
     background-color:dimgray;
 }
-.table-beermenu img {
+.table-bieremenu img {
     height: 170px;
 }
 .tr_img{

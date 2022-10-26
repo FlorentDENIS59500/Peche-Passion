@@ -3,7 +3,7 @@ define('DBHOST', 'localhost');
 define('DBPORT', 3306);
 define('DBNAME', 'beers');
 define('DBUSER', 'root');
-define('DBPWD', 'Flo,1819');
+define('DBPWD', '');
 
 function connectDb()
 {

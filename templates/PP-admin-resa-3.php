@@ -3,7 +3,7 @@ require_once "../src/model.php";
 
 $id_resa = '';
 $db = connectDb();
-require("PP-simple-auth.php");
+require("PP-Simple-Auth.php");
 $login = new Login;
 $login->authorize();
 if (isset($_GET['id_resa'])) {
@@ -20,7 +20,7 @@ require("PP-head.php");
 <?php
 require('PP-header-admin.php');
 ?>
-<div class="show-resa-title-beer-second">
+<div class="show-resa-title-biere-second">
     <h4>Reservation n° : <?= $id_resa ?> bien supprimée</h4>
 </div>
 <?php

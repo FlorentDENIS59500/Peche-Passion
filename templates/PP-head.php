@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pêche Passion</title>
     <link rel="stylesheet" href="../assets/css/PP-admin.css" />
-    <link rel="stylesheet" href="../assets/css/PP-beermenu.css" />
+    <link rel="stylesheet" href="../assets/css/PP-admin-auth.css" />
+    <link rel="stylesheet" href="../assets/css/PP-bieremenu.css" />
     <link rel="stylesheet" href="../assets/css/PP-contact.css" />
     <link rel="stylesheet" href="../assets/css/PP-find-us.css" />
     <link rel="stylesheet" href="../assets/css/PP-footer.css" />

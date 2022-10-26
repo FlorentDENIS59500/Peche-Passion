@@ -1,6 +1,7 @@
 .container-find-us{
     display: flex;
-    margin: auto;
+    height: 480px;
+   
 }
 .find-us{
     color: black;
@@ -31,22 +32,22 @@
     border-radius: 10px;
 }
 @media screen and (max-width: 1200px) {
-    .find-us{width: 210px; height: 250px; font-size: medium; padding: 35px 15px 10px 15px;}  
-    iframe{width: 380px; height: 290px;}
-    .txt-find-us{font-size: 13px;}
-    .find-us h3{font-size: x-large;}
+    .find-us{width: 210px; height: 250px; font-size: medium; padding: 35px 15px 10px 15px}  
+    iframe{width: 380px; height: 290px}
+    .txt-find-us{font-size: 13px}
+    .find-us h3{font-size: x-large}
 }
 @media screen and (max-width: 800px) {
-    .find-us{width: 200px; height: 200px; font-size: small;padding: 25px 15px 10px 15px; }  
-    iframe{width: 300px; height: 250px;}
-    .txt-find-us{font-size: 11px;}
-    .find-us h3{font-size: x-large;}
+    .find-us{width: 200px; height: 200px; font-size: small;padding: 25px 15px 10px 15px}  
+    iframe{width: 300px; height: 250px}
+    .txt-find-us{font-size: 11px}
+    .find-us h3{font-size: x-large}
 }
 @media screen and (max-width: 600px) {
-    .find-us{width: 210px; height: 170px; font-size: small;padding: 15px;}  
-    iframe{width: 300px; height: 200px;}
-    .container-find-us{display: inline-block; margin: auto;}
-    .map{margin-top: 10px;}
+    .find-us{width: 210px; height: 170px; font-size: small;padding: 15px}  
+    iframe{width: 300px; height: 200px}
+    .container-find-us{display: inline-block;  margin-left: 18%}
+    .map{margin-top: 10px}
     .foot{height: 80px;}
 }
 

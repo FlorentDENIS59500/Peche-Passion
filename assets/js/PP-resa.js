@@ -26,7 +26,7 @@ function formatNomPrenom(inputDeclancheur) {
         erreurDetectee = false;
     } else {
         if (regEXNomPrenomValide.test(inputDeclancheur.value) == false) {
-            window.alert("seuls les caractères alphanumériques sont autorisés");
+            window.alert('seuls les caractères alphanumériques sont autorisés');
             inputDeclancheur.focus();
             erreurDetectee = true;
             return false;

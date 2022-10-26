@@ -1,11 +1,10 @@
 CREATE DATABASE
-    IF NOT EXISTS `bieres` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+    IF NOT EXISTS `beers` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 
-USE `bieres`;
+USE `beers`;
 
-
-
-CREATE TABLE IF NOT EXISTS `biere` (
+CREATE TABLE
+    IF NOT EXISTS `beer` (
         `ID_BIERE` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
         `NOM_BIERE` varchar(60) NOT NULL DEFAULT '',
         `TYPE_BIERE` varchar(15) NOT NULL DEFAULT '',
@@ -14,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `biere` (
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 INSERT INTO
-    `biere` (
+    `beer` (
         `ID_BIERE`,
         `NOM_BIERE`,
         `TYPE_BIERE`,
@@ -80,7 +79,7 @@ VALUES (
         10,
         "Quatre Pays",
         "Blanche",
-        "Proposée aux professionnels du CHR, cavistes, épiceries fines... la bière Quatre Pays Blanche de la microbrasserie des Quatre Pays située à Hirtzbach dans le Haut-Rhin, est une bière de fermentation haute à la robe laiteuse ornée d'une mousse blanche et fine. Au nez se dégagent de subtils arômes de pins et d'agrumes complétés de notes céréalières (pain de mie).", 
+        "Proposée aux professionnels du CHR, cavistes, épiceries fines... la bière Quatre Pays Blanche de la microbrasserie des Quatre Pays située à Hirtzbach dans le Haut-Rhin, est une bière de fermentation haute à la robe laiteuse ornée d'une mousse blanche et fine. Au nez se dégagent de subtils arômes de pins et d'agrumes complétés de notes céréalières (pain de mie).",
         "biere10.png"
     ), (
         11,
@@ -171,7 +170,7 @@ VALUES (
         "Speciale",
         "Shikkoku est une couleur japonaise signifiant « noir de jais ». Le nom est donc tout  à fait évocateur de la robe sombre et brillante de cette bière.
         Cette bière noire se démarque par un profil aromatique qui reste léger. Agréable et douce au palais, elle ravira les amateurs de Guiness !
-        La Coedo Shikkoku a été médaille d'or à l'european beer star en 2011.",
+        La Coedo Shikkoku a été médaille d'or à l'european BIERE star en 2011.",
         "biere24.png"
     ), (
         25,
@@ -211,14 +210,14 @@ VALUES (1, 'admin', 'admin');
 
 -- -------------------------------------------------------- TABLE RESERVATION
 
-CREATE TABLE IF NOT EXISTS `Reservation` (
+CREATE TABLE
+    IF NOT EXISTS `Reservation` (
         `ID_RESERVATION` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
         `NOM` varchar(25) NOT NULL DEFAULT '',
         `PRENOM` varchar(15) NOT NULL DEFAULT '',
-        `TELEPHONE` varchar(10) DEFAULT NULL ,
-        `EMAIL` varchar(30) DEFAULT NULL ,
-        `DATES` varchar(30) DEFAULT NULL ,
-        `NOMBRE_PERS` varchar(10) DEFAULT NULL ,
-        `MESSAGES` varchar(300) DEFAULT NULL 
-
+        `TELEPHONE` varchar(10) DEFAULT NULL,
+        `EMAIL` varchar(30) DEFAULT NULL,
+        `DATES` varchar(30) DEFAULT NULL,
+        `NOMBRE_PERS` varchar(10) DEFAULT NULL,
+        `MESSAGES` varchar(300) DEFAULT NULL
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8;

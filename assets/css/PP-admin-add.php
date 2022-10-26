@@ -6,7 +6,7 @@ $login->authorize();
 
 $db = connectDb();
 
-$sqlRequest = 'SELECT DISTINCT TYPE_BIERE FROM beer';
+$sqlRequest = 'SELECT DISTINCT TYPE_biere FROM beer';
 $sqlResponse = $db->prepare($sqlRequest);
 $sqlResponse->execute();
 $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
@@ -21,7 +21,7 @@ require('PP-header-admin.php');
     <form method="post" action="PP-admin-add-2.php">
         <div class="mb-3">
             <label for="title-biere-second" class="form-label">Nom :</label>
-            <input type="text" class="form-control" id="NOM_BIERE" name="NOM_BIERE" required>
+            <input type="text" class="form-control" id="NAME_biere" name="NAME_biere" required>
         </div>
         <!-- SELECT GENRE -->
         <div class="mb-3">
@@ -30,7 +30,7 @@ require('PP-header-admin.php');
                 <?php
                 foreach ($results as $catbiere) {
                 ?>
-                    <option value="<?= $catbiere->TYPE_BIERE ?>"> <?= $catbiere->TYPE_BIERE ?></option>
+                    <option value="<?= $catbiere->TYPE_biere ?>"> <?= $catbiere->TYPE_biere ?></option>
                 <?php
                 }
                 ?>
@@ -40,7 +40,7 @@ require('PP-header-admin.php');
 
         <div class="mb-3">
             <label for="refimg" class="form-label">Affiche :</label>
-            <input type="text" class="form-control" id="PHOTO_BIERE" name="PHOTO_BIERE" required>
+            <input type="text" class="form-control" id="PHOTO_biere" name="PHOTO_biere" required>
         </div>
 
         <div class="mb-3">
