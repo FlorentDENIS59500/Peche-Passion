@@ -5,7 +5,7 @@ require('PP-header.php');
 
 <main>
     <div class="photo-pub">
-        <img src="..\assets\img\background\espadon1.png" alt="img-espadon1">
+        <img src="..\assets\img\background\espadon1.png" class="img-espadon" alt="img-espadon1">
     </div>
     <div class="container_resa">
         <div class="reservation">
@@ -36,6 +36,8 @@ require('PP-header.php');
     </div>
     <div class="foot"></div>
 </main>
+<script src="../assets/js/PP-resa.js"></script>
+
 <?php
 require("PP-footer.php");
 ?>

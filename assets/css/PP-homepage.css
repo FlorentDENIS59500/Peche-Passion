@@ -72,7 +72,7 @@
   }
 .txt{
     color: black;
-    font-size: 16px;
+    font-size: 17px;
     padding: 20px;
     padding-right: 10px;
 }
@@ -130,16 +130,16 @@
   .schedule-second {margin-top: 20px}
   .time{font-size: 13px; padding: 0px 10px 10px 10px; letter-spacing: 1px;}
 }
-@media screen and (max-width: 800px) {
-  .txt {padding: 30px; font-size: 13px}
+@media screen and (max-width: 900px) {
+  .txt {padding: 30px; font-size: 12px}
   .title-biere span{font-size: 30px}
   .title-biere-second_schedule-second{font-size: medium}
   .schedule-second p{font-size: 10px}
   .schedule-second {margin-top: 40px}
   .time{font-size: 12px; padding: 0px 10px 10px 10px; letter-spacing: 0px;}
 }
-@media screen and (max-width: 600px) {
-  .txt {padding: 35px; font-size: 10px}
+@media screen and (max-width: 700px) {
+  .txt {padding: 35px; font-size: 9px}
   .title-biere-second span{font-size: 20px}
   .title-biere-second_schedule-second{font-size: medium}
   .schedule-second p{font-size: 8px}

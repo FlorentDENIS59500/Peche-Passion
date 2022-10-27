@@ -1,6 +1,6 @@
 <nav class="containerheader">
     <div class="logoheader">
-        <h4><a href="PP-homepage.php"><img class="logoimg" src="..\assets\img\icon\Logo site 1.jpg" alt="logo"></a></h4>
+        <h4><a href="PP-homepage.php"><img class="logoimg" src="..\assets\img\icon\Logo site 1.png" alt="logo"></a></h4>
     </div>
     <ul class="nav-links">
         <a href="PP-homepage.php">ACCUEIL</a>

@@ -1,53 +1,52 @@
+.img-sandre {
+    width: 100%;
+}
 .container-find-us{
     display: flex;
-    height: 480px;
-   
 }
 .find-us{
     color: black;
-    text-align: center;
     width: 400px;
     height: 280px;
-    margin: auto;
+    margin-left: 5%;
     margin-top: 40px;
-    background-color: #cccccc;
-    padding: 30px 15px 10px 15px;
-    border-radius: 10px;
-    border: 2px solid black;
+    padding-top: 45px;
     font-size: large;
 }
-.find-us h3{
-    font-size: xx-large;
+.find-us h2{
+    font-size: 25px;
 }
-.city-find-us{
-    text-align: center;
+.txt-find-us{
+    font-size: 20px;
+    padding-top: 7px;
 }
-.find-us p{
-    text-align: center;
+h1 {
+    color: rgb(118, 140, 204);
 }
 .map{
     margin: auto;
     margin-top: 40px;
-    border: 2px solid black;
     border-radius: 10px;
 }
+#map-iframe {
+    width: 650px;
+    height: 430px;
+    border: 0;
+}
+
 @media screen and (max-width: 1200px) {
-    .find-us{width: 210px; height: 250px; font-size: medium; padding: 35px 15px 10px 15px}  
-    iframe{width: 380px; height: 290px}
-    .txt-find-us{font-size: 13px}
-    .find-us h3{font-size: x-large}
+    .find-us{width: 210px; height: 250px; font-size: medium; padding: 15px}  
+    #map-iframe{width: 420px; height: 370px}
+    .txt-find-us{font-size: 14px}
+    .find-us h2{font-size: x-large}
+    
 }
-@media screen and (max-width: 800px) {
-    .find-us{width: 200px; height: 200px; font-size: small;padding: 25px 15px 10px 15px}  
-    iframe{width: 300px; height: 250px}
-    .txt-find-us{font-size: 11px}
-    .find-us h3{font-size: x-large}
-}
-@media screen and (max-width: 600px) {
-    .find-us{width: 210px; height: 170px; font-size: small;padding: 15px}  
-    iframe{width: 300px; height: 200px}
+@media screen and (max-width: 700px) {
+    .find-us{width: 210px; height: 170px; font-size: small; padding: 0px; margin-top: 20px}  
+    #map-iframe{width: 300px; height: 260px}
+    .txt-find-us h2{font-size: 9px; padding-top: 3px}
     .container-find-us{display: inline-block;  margin-left: 18%}
-    .map{margin-top: 10px}
-    .foot{height: 80px;}
+    .map{margin-top: 80px}
+    .foot{height: 0px;}
 }
 

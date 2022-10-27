@@ -1,3 +1,4 @@
+</div>
 <div class="footer">
   <div class="footernotice pres mobfoot">
     <a href="PP-legalnotice.php">Mentions légales</a>
@@ -12,14 +13,10 @@
     <a href=""><img class="iconr" src="../assets/img/icon/tripadvisor.png" alt="tripadvisor"></a>
   </div>
 </div>
-</div>
 
-<!-- <script src="../assets/js/PP-bieremenu.js"></script> -->
-<script src="../assets/js/PP-contact.js"></script>
-<!-- <script src="../assets/js/PP-footer.js"></script> -->
+
+<script src="../assets/js/PP-fishmenu.js"></script>
 <script src="../assets/js/PP-header.js"></script>
-<script src="../assets/js/PP-resa.js"></script>
-
 </body>
 
 </html>

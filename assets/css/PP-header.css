@@ -1,5 +1,5 @@
 .containerheader{
-    background: white;
+    background: whitesmoke;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -20,7 +20,7 @@
     display: block;
      text-transform: uppercase;
      text-decoration: none;
-     color: rgb(66, 63, 63);
+     color: black;
     border-bottom:2px solid transparent;
     transition:0.5s ease;
     transform: translateX(0%);

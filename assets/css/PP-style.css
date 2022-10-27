@@ -1,26 +1,16 @@
 body,html{
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-   
-}
-
-html{
-    height: 100%;
 }
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    scroll-behavior:smooth;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
+
 main {
     position: relative;
 }
-.container{
+.containerstyle{
     min-height: 100%;
     position: relative;
 }
