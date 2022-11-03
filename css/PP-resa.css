@@ -2,18 +2,19 @@
     width: 100%;
 }
 .container_resa{
-    margin-top: 20px;
+    margin-top: 40px;
     height: 460px;
 }
 .reservation{
     color: black;
     width: 660px;
-    height: 350px;
-    background-color: #cccccc;
+    height: 370px;
+    background-color: #f7f5f5;
+    box-shadow: 10px 5px 5px rgb(150, 149, 149);
     border-radius: 5px;
     margin: auto;
     margin-top: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: small;
 }
 .cont1{
@@ -34,9 +35,11 @@
 .form-resa>div{
     flex: 40%;
 }
-.reservation h3{
+.reservation h4{
+    height: 55px;
     text-align: center;
-    font-size: x-large;
+    font-size: 40px;
+    font-family: 'Ballet';
 }
 .form-resa input, .form-resa textarea{
     display: block;
@@ -59,6 +62,9 @@
     width: 120px;
     height: 40px;
     font-size: x-large;
+}
+.foot {
+    height: 40px;
 }
 @media screen and (max-width: 900px) { 
     .reservation {width: 500px;}

@@ -1,6 +1,5 @@
 .table-bieremenu td {  
     border-radius: 15px;
-    font-size: small;
 }
 .NOM_BIERE{
     font-size: x-large;
@@ -35,22 +34,6 @@
     display: block;
     margin: 4%;   
 }
-#sous-blonde {
-    display: none;
-    margin: 4%;  
-}
-#sous-ambree {
-    display: none;
-    margin: 4%;  
-}
-#sous-brune {
-    display: none;
-    margin: 4%;  
-}
-#sous-speciale {
-    display: none;
-    margin: 4%;  
-}
 @media (min-width: 1000px){  
     .menum {
         font-size: larger;
@@ -77,28 +60,11 @@
     margin-bottom:1em;
         width: 99%;
     }
-    #sous-blanche {
-        padding-bottom: 50px;
-    }
-    #sous-blonde {
-        padding-bottom: 50px;
-    }
-    #sous-ambree {
-        padding-bottom: 50px;
-    }
-    #sous-brune {
-        padding-bottom: 50px;
-    }
-    #sous-speciale {
-        padding-bottom: 50px;
-    }
 }
 .menum a {
     color: white;
 }
-#ablanche{
-    color: rgb(0, 0, 0);
-}
+
 .link {
     text-decoration: none;
     color: white;

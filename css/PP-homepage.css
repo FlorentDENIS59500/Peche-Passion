@@ -1,0 +1,125 @@
+.clear2 {
+  height: 100px;
+}
+.logo-wave1 {
+  width: 12%;
+  height: auto;
+}
+.logo-wave2 {
+  width: 12%;
+  height: auto;
+}
+.title {
+    display: inline-block;
+    color: #22a3e3;
+    letter-spacing: 5px;
+}
+.subtitle {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: xx-large;
+  font-family: 'Ballet', cursive;
+}
+.pic-ctn {
+    position: absolute;
+    width: 100%;
+  }
+  @keyframes display {
+    0% {
+      transform: translateX(1920px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  .pic-ctn > img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    animation: display 18s infinite;
+  }
+  img:nth-child(2) {
+    animation-delay: 3s;
+  }
+  img:nth-child(3) {
+    animation-delay: 6s;
+  }
+  img:nth-child(4) {
+    animation-delay: 9s;
+  }
+  img:nth-child(5) {
+    animation-delay: 12s;
+  }
+  img:nth-child(6) {
+    animation-delay: 15s;
+  }
+.titretext {
+  font-family: 'Ballet', cursive;
+  padding-top: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+.txt{
+    color: black;
+    font-size: 17px;
+    padding: 20px 20px 20px 20px;
+}
+
+.title-biere{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px rgb(150, 149, 149);
+    margin-top: 43%;
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+}
+.title-biere {
+    grid-area: title-biere;
+    text-align: center;
+    font-size: 70px;
+}
+.desc { grid-area: desc; }
+@media screen and (max-width: 1200px) {
+  .txt{font-size: 15px}
+  .title-biere span{font-size: 50px}
+  .subtitle{font-size: 22px;}
+  .desc {margin-left: 15%; width: 70%;margin-top: 46%;}
+}
+@media screen and (max-width: 950px) {
+  .txt {font-size: 14px}
+  .title-biere span{font-size: 30px}
+  .subtitle{font-size: 15px;}
+  .desc {margin-left: 15%; width: 70%;margin-top: 48%;}
+}
+@media screen and (max-width: 700px) {
+  .txt {font-size: 13px}
+  .title-biere span {font-size: 25px}
+  .subtitle {font-size: 12px;}
+  .desc {margin-left: 15%; width: 70%;margin-top: 50%;}
+}
+@media screen and (max-width: 450px) {
+  .txt {font-size: 11px}
+  .title-biere span{font-size: 18px}
+  .subtitle{font-size: 10px;}
+}

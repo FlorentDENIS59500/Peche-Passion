@@ -1,3 +1,6 @@
+.clear {
+    height: 100px;
+}
 .img-sandre {
     width: 100%;
 }
@@ -34,19 +37,18 @@ h1 {
     border: 0;
 }
 
-@media screen and (max-width: 1200px) {
-    .find-us{width: 210px; height: 250px; font-size: medium; padding: 15px}  
+@media screen and (max-width: 1150px) {
+    .find-us{width: 210px; height: 250px; font-size: medium}  
     #map-iframe{width: 420px; height: 370px}
     .txt-find-us{font-size: 14px}
     .find-us h2{font-size: x-large}
     
 }
 @media screen and (max-width: 700px) {
-    .find-us{width: 210px; height: 170px; font-size: small; padding: 0px; margin-top: 20px}  
-    #map-iframe{width: 300px; height: 260px}
+    .find-us{width: 210px; height: 230px; font-size: small; padding-left: 50px; margin-top: 0px}  
+    #map-iframe{width: 320px; height: 290px}
     .txt-find-us h2{font-size: 9px; padding-top: 3px}
     .container-find-us{display: inline-block;  margin-left: 18%}
-    .map{margin-top: 80px}
     .foot{height: 0px;}
 }
 

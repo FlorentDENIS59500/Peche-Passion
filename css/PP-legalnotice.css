@@ -1,0 +1,42 @@
+  .container-legalnotice{
+    background-color: #f7f5f5;
+    color: rgb(57, 56, 55);
+    height: 100%;
+    padding: 40px 100px 40px 100px;
+  }
+  .title-biere-legalnotice{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .container-legalnotice h2{
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+  .container-legalnotice h1{
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .div1-legalnotice{
+      padding-right: 25px;
+      padding-top: 40px;
+    }
+  .div2-legalnotice{
+      padding-right: 25px;
+      padding-top: 40px;
+    }
+  .div3-legalnotice{
+      padding-right: 25px;
+      padding-top: 40px;
+    }
+  .div4-legalnotice{
+      padding-right: 25px;
+      padding-top: 40px;
+    }
+  .clear1 {
+    height: 60px;
+  }
+  @media only screen and (max-width: 600px){
+  .clear1 {
+    height: 90px;
+  }
+}

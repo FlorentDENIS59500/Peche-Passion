@@ -5,12 +5,12 @@ require('PP-header.php');
 
 <main>
     <div class="photo-pub">
-        <img src="..\assets\img\background\espadon1.png" class="img-espadon" alt="img-espadon1">
+        <img src="..\assets\img\background\bass-boat3.jpg" class="img-bass-boat" alt="img-bass-boat3">
     </div>
     <div class="container_resa">
         <div class="reservation">
-            <h3>RESERVATION</h3>
-            <form class="form-resa" method="post" action="PP-Resa2.php">
+            <h4>Réservation</h4>
+            <form class="form-resa" method="post" action="resa2">
                 <div class="cont1 resa">
                     <input type="text" name="Nom" id="Nom" placeholder="Nom" size="40" required />
                     <br>

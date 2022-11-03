@@ -4,10 +4,10 @@
     </div>
     <ul class="nav-links">
         <a href="PP-homepage.php">ACCUEIL</a>
-        <a href="PP-bieremenu.php">PHOTOS</a>
+        <a href="PP-bieremenu.php?tp=Blanche">PHOTOS</a>
         <a href="PP-resa.php">RESERVATION</a>
-        <a href="PP-contact.php">CONTACT</a>
-        <a href="PP-find-us.php">NOUS TROUVER</a>
+        <a href="PP-tarifs.php">TARIFS</a>
+        <a href="PP-find-us.php">OÙ SOMMES-NOUS</a>
     </ul>
     <div class="burger">
         <div class="line1"></div>
