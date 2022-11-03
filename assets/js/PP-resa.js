@@ -2,9 +2,11 @@ var regExpNonVide = /./;
 
 var regEXNomPrenomValide = /^[a-zA-Z\s\-\'_]+$/;
 
+var regExTel = /^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$/;
+
 var regExEmail = /^[a-z][a-z_0-9\.\-]+@[a-z_0-9\.\-]+\.[a-z]{2,3}$/;
 
-var regExTel = /^\+[0-9]{1,2}-[0-9]{3}-[0-9]{7}$/
+var regExDate = /^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])T(2[0-3]|[01][0-9]):[0-5][0-9]$/;
 
 var erreurDetectee = false;
 
@@ -13,7 +15,7 @@ function saisieObligatoire(inputDeclancheur) {
         erreurDetectee = false;
     } else {
         if (regExpNonVide.test(inputDeclancheur.value) == false) {
-            window.alert('ce champ nécessite une saisie obligatoire');
+            window.alert('Ce champ nécessite une saisie obligatoire');
             inputDeclancheur.focus();
             erreurDetectee = true;
             return false;
@@ -26,26 +28,10 @@ function formatNomPrenom(inputDeclancheur) {
         erreurDetectee = false;
     } else {
         if (regEXNomPrenomValide.test(inputDeclancheur.value) == false) {
-            window.alert('seuls les caractères alphanumériques sont autorisés');
+            window.alert('Seuls les caractères alphanumériques sont autorisés');
             inputDeclancheur.focus();
             erreurDetectee = true;
             return false;
-        }
-    }
-}
-
-function formatEmail(inputDeclancheur) {
-    inputDeclancheur.focus();
-    if (inputDeclancheur.value != "") {
-        if (erreurDetectee) {
-            erreurDetectee = false;
-        } else {
-            if (regExEmail.test(inputDeclancheur.value) == false) {
-                window.alert("Votre adresse mail n'est pas valide");
-                inputDeclancheur.focus();      
-                erreurDetectee = true;
-                return false;
-            }
         }
     }
 }
@@ -64,6 +50,23 @@ function controleNumTel(inputDeclancheur) {
         }
     }
 }
+function formatEmail(inputDeclancheur) {
+    inputDeclancheur.focus();
+    if (inputDeclancheur.value != "") {
+        if (erreurDetectee) {
+            erreurDetectee = false;
+        } else {
+            if (regExEmail.test(inputDeclancheur.value) == false) {
+                window.alert("Votre adresse mail n'est pas valide");
+                inputDeclancheur.focus();      
+                erreurDetectee = true;
+                return false;
+            }
+        }
+    }
+}
+
+
 
 function envoyerFormulaire() {
 
@@ -75,7 +78,7 @@ function envoyerFormulaire() {
     formatNomPrenom(document.getElementById("Prenom")) == false || 
     formatEmail(document.getElementById("Email")) == false || 
     controleNumTel(document.getElementById("Telephone")) == false) {
-        window.alert("erreur dans le formulaire");
+        window.alert("Erreur dans le formulaire");
         return false;
     } else {
         return true;

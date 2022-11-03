@@ -4,7 +4,7 @@ require('PP-header.php');
 ?>
 <main>
     <div class="photo-pub">
-        <img src="..\assets\img\background\bass-boat4.jpg" class="img-bass-boat'" alt="img-bass-boat4">
+        <img src="..\assets\img\background\bass-boat4.jpg" class="img-bass-boat4" alt="img-bass-boat4">
     </div>
     <div class="container-find-us">
         <div class="find-us">

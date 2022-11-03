@@ -10,20 +10,20 @@ require('PP-header.php');
     <div class="container_resa">
         <div class="reservation">
             <h4>Réservation</h4>
-            <form class="form-resa" method="post" action="resa2">
+            <form class="form-resa" method="post" action="PP-resa2.php">
                 <div class="cont1 resa">
                     <input type="text" name="Nom" id="Nom" placeholder="Nom" size="40" required />
                     <br>
                     <input type="text" name="Prenom" id="Prenom" placeholder="Prénom" size="40" required />
                     <br>
-                    <input type="tel" name="Telephone" id="Telephone" placeholder="00 00 00 00 00" size="14" required />
+                    <input type="tel" name="Telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="Telephone" placeholder="N° Téléphone" size="14" required />
                     <br>
-                    <input type="email" name="Email" id="Email" placeholder="exemple@email.com" size="40" required />
+                    <input type="email" name="Email" id="Email" placeholder="Email" size="40" required />
                 </div>
                 <div class="cont2 resa">
                     <input type="datetime-local" name="Date_Resa" id="Date_Resa" required />
                     <br>
-                    <input type="number" name="Nombre_Pers" min="1" id="Nombre_Pers" placeholder="Nombre de personnes" size="15" required />
+                    <input type="number" name="Nombre_Pers" min="1" max="2" id="Nombre_Pers" placeholder="Nombre de personnes" size="1" required />
                     <br>
                     <textarea type="text" name="Messages" id="Messages" placeholder="Message" rows="4" cols=40></textarea>
                     <br>
