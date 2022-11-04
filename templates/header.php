@@ -1,5 +1,5 @@
 <nav class="containerheader">
-    <div class="logoheader">
+    <div class="logo">
         <h4><a href="homepage.php"><img class="logoimg" src="..\assets\img\icon\Logo site 1.png" alt="logo"></a></h4>
     </div>
     <ul class="nav-links">
