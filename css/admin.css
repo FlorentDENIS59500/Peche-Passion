@@ -11,30 +11,46 @@
   padding-right: 20px;
   font-size: x-large;
 }
-.adminform p {
+.adminform {
   color: black;
+  text-align: center;
+}
+.remove-biere {
+  margin: auto;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
   text-align: center;
 }
 .mb-3 {
   color: black;
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 10px;
   width: 400px;
 }
 .form-admin-resa {
   border-radius: 10px;
   border: 1px solid black;
   background-color: darkgrey;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
+}
+.form-frame {
+  border: 1px solid black;
+  background-color: #d4d4d4;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .btn {
   padding: 3px;
   font-size: medium;
 }
 .form-select {
-  padding: 3px;
+  padding: 7px;
   font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .title-show-resa {
   font-size: xx-large;
@@ -45,3 +61,4 @@
 .form-del-resa {
   text-align: center;
 }
+

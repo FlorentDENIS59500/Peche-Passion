@@ -1,6 +1,6 @@
 <?php
-require("PP-head.php");
-require('PP-header.php');
+require("head.php");
+require('header.php');
 require "../src/model.php";
 ?>
 <?php
@@ -48,5 +48,5 @@ function showBeer($typeBeer)
     </article>
 </div>
 <?php
-require("PP-footer.php");
+require("footer.php");
 ?>

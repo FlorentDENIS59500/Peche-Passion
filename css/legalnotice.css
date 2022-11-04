@@ -14,29 +14,23 @@
   }
   .container-legalnotice h1{
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
+    padding: 20px;
   }
-  .div1-legalnotice{
+  .div-legalnotice{
       padding-right: 25px;
       padding-top: 40px;
     }
-  .div2-legalnotice{
-      padding-right: 25px;
-      padding-top: 40px;
-    }
-  .div3-legalnotice{
-      padding-right: 25px;
-      padding-top: 40px;
-    }
-  .div4-legalnotice{
-      padding-right: 25px;
-      padding-top: 40px;
-    }
+  .text-legalnotice {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .clear1 {
     height: 60px;
   }
   @media only screen and (max-width: 600px){
-  .clear1 {
-    height: 90px;
-  }
+  .clear1 {height: 90px;}
+  .container-legalnotice h1{ font-size: x-large}
+  .container-legalnotice h2{ font-size: large}
+  .text-legalnotice { font-size: small;}
 }

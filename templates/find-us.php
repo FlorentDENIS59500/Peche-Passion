@@ -1,8 +1,16 @@
 <?php
-require("PP-head.php");
-require('PP-header.php');
+require("head.php");
+require('header.php');
 ?>
 <main>
+    <div class="title-biere">
+        <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
+        <span class="title">Pêche Passion</span>
+        <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">
+    </div>
+    <div class="subtitle">
+        <h2>Guide de pêche</h2>
+    </div>
     <div class="photo-pub">
         <img src="..\assets\img\background\bass-boat4.jpg" class="img-bass-boat4" alt="img-bass-boat4">
     </div>
@@ -40,5 +48,5 @@ require('PP-header.php');
 </main>
 <div class="clear"></div>
 <?php
-require("PP-footer.php");
+require("footer.php");
 ?>

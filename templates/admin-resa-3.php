@@ -3,7 +3,7 @@ require_once "../src/model.php";
 
 $id_resa = '';
 $db = connectDb();
-require("PP-Simple-Auth.php");
+require("auth.php");
 $login = new Login;
 $login->authorize();
 if (isset($_GET['id_resa'])) {
@@ -15,15 +15,15 @@ if (isset($_GET['id_resa'])) {
     $sql2->execute();
     $db = disconnectDb();
 }
-require("PP-head.php");
+require("head.php");
 ?>
 <?php
-require('PP-header-admin.php');
+require('header-admin.php');
 ?>
 <div class="show-resa-title-biere-second">
     <h4>Reservation n° : <?= $id_resa ?> bien supprimée</h4>
 </div>
 <?php
-header("refresh:3;url=PP-admin-resa.php");
-require 'PP-footer.php';
+header("refresh:3;url=admin-resa.php");
+require 'footer.php';
 ?>

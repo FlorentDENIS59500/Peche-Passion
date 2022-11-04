@@ -15,12 +15,6 @@ main {
     min-height: 100%;
     position: relative;
 }
-
-.add-biere {
-    color: white;
-    display: flex;
-    justify-content: center;
-}
 li {
     list-style-type: none;
 }

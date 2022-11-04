@@ -1,8 +1,8 @@
 
 <?php
-require('../../templates/PP-head.php');
-require('../../templates/PP-header.php');
+require('../../templates/head.php');
+require('../../templates/header.php');
 require('../../src/model.php');
-require('../../templates/PP-footer.php');
+require('../../templates/footer.php');
 
 ?>

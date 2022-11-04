@@ -1,6 +1,6 @@
 <?php
 require_once "../src/model.php";
-require("PP-Simple-Auth.php");
+require("auth.php");
 $login = new Login;
 $login->authorize();
 
@@ -11,35 +11,23 @@ $sqlResponse = $db->prepare($sqlRequest);
 $sqlResponse->execute();
 $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
 $db = disconnectDb();
-require("PP-head.php");
-require('PP-header-admin.php');
+require("head.php");
+require('header-admin.php');
 ?>
-<div class="add-biere">
-    <h4>Saisie d'une nouvelle bière !</h4>
+<div class="photo-pub">
+    <img src="..\assets\img\background\bass-boat3.jpg" class="img-bass-boat" alt="img-bass-boat3">
 </div>
 <div class="add-biere">
-    <form method="post" action="PP-admin-add-2.php">
+    <h1>Saisie d'une nouvelle photo</h1>
+</div>
+<div class="add-biere">
+    <form method="post" class="form-frame" action="admin-add-2.php">
         <div class="mb-3">
-            <label for="title-biere-second" class="form-label">Nom :</label>
+            <label for="title-biere-second" class="form-label">Titre :</label>
             <input type="text" class="form-control" id="NOM_BIERE" name="NOM_BIERE" required>
         </div>
-        <!-- SELECT GENRE -->
         <div class="mb-3">
-            <label for="genreselect" class="form-label">Selectionne un type</label>
-            <select class="form-select" id="choix" name="choix">
-                <?php
-                foreach ($results as $catbiere) {
-                ?>
-                    <option value="<?= $catbiere->TYPE_BIERE ?>"> <?= $catbiere->TYPE_BIERE ?></option>
-                <?php
-                }
-                ?>
-
-            </select>
-        </div>
-
-        <div class="mb-3">
-            <label for="refimg" class="form-label">Affiche :</label>
+            <label for="refimg" class="form-label">Photo :</label>
             <input type="text" class="form-control" id="PHOTO_BIERE" name="PHOTO_BIERE" required>
         </div>
 
@@ -52,10 +40,10 @@ require('PP-header-admin.php');
             <button type="submit" class="btn btn-primary">CREER</button>
         </div>
         <div class="mb-3">
-            <button type="button"><a href="PP-admin-add.php">Annuler</a></button>
+            <button type="button"><a class="btn btn-primary" href="admin-add.php" style="color: red">Annuler</a></button>
         </div>
     </form>
 </div>
 <?php
-require 'PP-footer.php';
+require 'footer.php';
 ?>

@@ -1,4 +1,3 @@
-
 /** vue resa2 */
 <main>
     <div>
@@ -9,7 +8,7 @@
 </main>
 <script>
     setTimeout(function() {
-        window.location.href = 'PP-resa.php';
+        window.location.href = 'resa.php';
     }, 5000);
 </script>
 <?php

@@ -1,6 +1,6 @@
 <?php
-require("PP-head.php");
-require('PP-header.php');
+require("head.php");
+require('header.php');
 ?>
 <main>
     <div class="container-homepage">
@@ -33,5 +33,5 @@ require('PP-header.php');
 </main>
 <div class="clear2"></div>
 <?php
-require("PP-footer.php");
+require("footer.php");
 ?>

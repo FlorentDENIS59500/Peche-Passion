@@ -1,10 +1,10 @@
 </div>
 <div class="footer">
   <div class="footernotice pres mobfoot">
-    <a href="PP-legalnotice.php">Mentions légales</a>
+    <a href="legalnotice.php">Mentions légales</a>
   </div>
   <div class="health pres mobfoot">
-    <p>L'abus de pêche est <span onclick="window.location='PP-admin.php';">vivement conseillé</span> pour la santé.</p>
+    <p>L'abus de pêche est <span onclick="window.location='admin.php';">vivement conseillé</span> pour la santé.</p>
   </div>
   <div class="iconres pres">
     <a href=""><img class="iconr" src="../assets/img/icon/facebook.webp" alt="facebook"></a>
@@ -15,8 +15,9 @@
 </div>
 
 
-<script src="../assets/js/PP-fishmenu.js"></script>
-<script src="../assets/js/PP-header.js"></script>
+<script src="../assets/js/fishmenu.js"></script>
+<script src="../assets/js/header.js"></script>
+
 </body>
 
 </html>

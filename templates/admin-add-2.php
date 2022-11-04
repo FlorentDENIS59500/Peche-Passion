@@ -1,7 +1,7 @@
 <?php
 require_once "../src/model.php";
 
-require("PP-Simple-Auth.php");
+require("auth.php");
 $login = new Login;
 $login->authorize();
 $NOM_BIERE = $_POST['NOM_BIERE'];
@@ -17,12 +17,12 @@ $sql->bindParam('DESC_BIERE', $DESC_BIERE, PDO::PARAM_STR);
 $sql->bindParam('PHOTO_BIERE', $PHOTO_BIERE, PDO::PARAM_STR);
 $sql->execute();
 $db = disconnectDb();
-require("PP-head.php");
-require('PP-header-admin.php');
+require("head.php");
+require('header-admin.php');
 ?>
 <div>
     <h2>Bière <?= $_POST['NOM_BIERE'] ?> ajoutée avec succès</h2>
 </div>
 <?php
-require 'PP-footer.php';
+require 'footer.php';
 ?>

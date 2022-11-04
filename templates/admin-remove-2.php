@@ -2,14 +2,14 @@
 require_once "../src/model.php";
 
 $db = connectDb();
-require("PP-Simple-Auth.php");
+require("auth.php");
 $login = new Login;
 $login->authorize();
 $ID_BIERE = "";
 if (isset($_POST["choix2"]) || ($_POST["choix2"] != "")) {
     $ID_BIERE = $_POST["choix2"];
 } else {
-    header('Location: PP-admin-remove.php');
+    header('Location: admin-remove.php');
 }
 $sqlRequest = 'SELECT * FROM beer WHERE ID_BIERE = :ID_BIERE';
 $sqlResponse = $db->prepare($sqlRequest);
@@ -17,8 +17,8 @@ $sqlResponse->bindParam('ID_BIERE', $ID_BIERE, PDO::PARAM_STR);
 $sqlResponse->execute();
 $results = $sqlResponse->fetch();
 $db = disconnectDb();
-require("PP-head.php");
-require('PP-header-admin.php');
+require("head.php");
+require('header-admin.php');
 if ($results) {
     $db = connectDb();
     $sqlRequest2 = 'DELETE FROM beer WHERE ID_BIERE = :ID_BIERE';
@@ -42,5 +42,5 @@ if ($results) {
     </div>
 <?php
 }
-require 'PP-footer.php';
+require 'footer.php';
 ?>

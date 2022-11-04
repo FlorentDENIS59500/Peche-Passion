@@ -1,1 +1,1 @@
-<?php header('Location: templates/PP-homepage.php');
+<?php header('Location: templates/homepage.php');

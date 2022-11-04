@@ -55,10 +55,17 @@
 }
 .minfooter {
     height: 60px;
-}
+}   
+@media screen and (max-width: 1200px) { 
+    .tarifs {width: 700px;}
+    }
 @media screen and (max-width: 900px) { 
     .tarifs {width: 500px;}
 }
 @media screen and (max-width: 600px) {   
-    .tarifs {width: 300px; height: 470px;}
+    .tarifs {width: 300px; height: 400px}
+    .titre_tarif1 {font-size: medium}
+    .titre_tarif2 {font-size: medium}
+    .titre_tarif3 {font-size: medium}
+    .tarif-col1, .tarif-col2, .tarif-col3 {font-size: medium}
 }
