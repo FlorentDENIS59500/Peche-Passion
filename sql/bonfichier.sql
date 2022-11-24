@@ -7,6 +7,7 @@ CREATE TABLE
     IF NOT EXISTS `beer` (
         `ID_BIERE` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
         `NOM_BIERE` varchar(60) NOT NULL DEFAULT '',
+        `TYPE_BIERE` varchar(15) NOT NULL DEFAULT '',
         `DESC_BIERE` varchar(900) DEFAULT NULL,
         `PHOTO_BIERE` varchar(30) DEFAULT NULL
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
@@ -15,6 +16,7 @@ INSERT INTO
     `beer` (
         `ID_BIERE`,
         `NOM_BIERE`,
+        `TYPE_BIERE`,
         `DESC_BIERE`,
         `PHOTO_BIERE`
     )
