@@ -17,10 +17,10 @@ require('header-admin.php');
 <div class="photo-pub">
     <img src="..\assets\img\background\bass-boat3.jpg" class="img-bass-boat" alt="img-bass-boat3">
 </div>
-<div class="add-biere">
+<div class="add-photo">
     <h1>Saisie d'une nouvelle photo</h1>
 </div>
-<div class="add-biere">
+<div class="add-photo">
     <form method="post" class="form-frame" action="admin-add-2.php">
         <div class="mb-3">
             <label for="title-biere-second" class="form-label">Titre :</label>
@@ -33,7 +33,7 @@ require('header-admin.php');
 
         <div class="mb-3">
             <label for="resume" class="form-label">Résumé :</label>
-            <textarea type="text" name="Message" id="Message" rows="6" cols=35 required></textarea>
+            <textarea type="text" name="Message" id="Message" rows="5" cols=35 required></textarea>
         </div>
 
         <div class="mb-3">
@@ -44,6 +44,7 @@ require('header-admin.php');
         </div>
     </form>
 </div>
+<div class="foot"></div>
 <?php
 require 'footer.php';
 ?>

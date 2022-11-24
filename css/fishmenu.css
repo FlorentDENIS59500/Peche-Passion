@@ -22,7 +22,7 @@
   color: white;
   margin-bottom: 2em;
   width: 19%;
-  background-color: dimgray;
+  background-color: rgb(92, 87, 232);
 }
 .table-bieremenu img {
   height: 170px;
@@ -76,8 +76,8 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  background-color: dimgray;
+  background-color: rgb(92, 87, 232);
 }
 .menum li {
-  padding: 5px 14px;
+  padding: 15px 24px;
 }
