@@ -1,7 +1,7 @@
 <?php
 define('DBHOST', 'localhost');
 define('DBPORT', 3306);
-define('DBNAME', 'beers');
+define('DBNAME', 'photos');
 define('DBUSER', 'root');
 define('DBPWD', '');
 

@@ -22,8 +22,8 @@ if (isset($_POST['submit-form-resa'])) {
         echo "<p class='error-mailto-resa'>L'email n'est pas valide.</p>";
     } else if (!preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])T(2[0-3]|[01][0-9]):[0-5][0-9]$/", $DATES)) {
         echo "<p class='error-mailto-resa'>Le format de la date n'est pas valide.</p>";
-    } else if (!preg_match("/^([0]?[1-9]|1[0-5])$/", $NOMBRE_PERS)) {
-        echo "<p class='error-mailto-resa'>Désolé, 15 personnes max.</p>";
+    } else if (!preg_match("/^[12]$/", $NOMBRE_PERS)) {
+        echo "<p class='error-mailto-resa'>Désolé, 2 personnes max.</p>";
     } else {
         $db = connectDb();
         $sqlRequest = "INSERT INTO reservation (NOM, PRENOM, TELEPHONE, EMAIL, DATES, NOMBRE_PERS, MESSAGES) VALUES ( '$NOM', '$PRENOM', '$TELEPHONE', '$EMAIL', '$DATES', $NOMBRE_PERS, '$MESSAGE')";
@@ -56,7 +56,7 @@ if (isset($_POST['submit-form-resa'])) {
 
 ?>
 <main>
-    <div class="title-biere">
+    <div class="title-fish">
         <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
         <span class="title">Pêche Passion</span>
         <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">

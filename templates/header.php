@@ -4,7 +4,7 @@
     </div>
     <ul class="nav-links">
         <a href="homepage.php">ACCUEIL</a>
-        <a href="bieremenu.php?tp=Blanche">PHOTOS</a>
+        <a href="fishmenu.php?tp=Bass-Boat">PHOTOS</a>
         <a href="resa.php">RESERVATION</a>
         <a href="tarifs.php">TARIFS</a>
         <a href="find-us.php">OÙ SOMMES-NOUS</a>

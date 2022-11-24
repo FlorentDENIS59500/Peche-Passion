@@ -15,7 +15,7 @@
   color: black;
   text-align: center;
 }
-.remove-biere {
+.remove-fish {
   margin: auto;
   color: black;
   display: flex;
@@ -55,7 +55,7 @@
 .title-show-resa {
   font-size: xx-large;
 }
-.show-resa-title-biere-second {
+.show-resa-title-fish-second {
   text-align: center;
 }
 .form-del-resa {

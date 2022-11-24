@@ -6,7 +6,7 @@ $login->authorize();
 
 $db = connectDb();
 
-$sqlRequest = 'SELECT DISTINCT TYPE_BIERE FROM beer';
+$sqlRequest = 'SELECT DISTINCT TYPE_PHOTO FROM photo';
 $sqlResponse = $db->prepare($sqlRequest);
 $sqlResponse->execute();
 $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
@@ -18,17 +18,17 @@ require('header-admin.php');
     <img src="..\assets\img\background\bass-boat3.jpg" class="img-bass-boat" alt="img-bass-boat3">
 </div>
 <div class="add-photo">
-    <h1>Saisie d'une nouvelle photo</h1>
+    <h1>Ajout d'une nouvelle photo</h1>
 </div>
 <div class="add-photo">
     <form method="post" class="form-frame" action="admin-add-2.php">
         <div class="mb-3">
-            <label for="title-biere-second" class="form-label">Titre :</label>
-            <input type="text" class="form-control" id="NOM_BIERE" name="NOM_BIERE" required>
+            <label for="title-fish-second" class="form-label">Titre :</label>
+            <input type="text" class="form-control" id="NOM_PHOTO" name="NOM_PHOTO" required>
         </div>
         <div class="mb-3">
             <label for="refimg" class="form-label">Photo :</label>
-            <input type="text" class="form-control" id="PHOTO_BIERE" name="PHOTO_BIERE" required>
+            <input type="text" class="form-control" id="PICT_PHOTO" name="PICT_PHOTO" required>
         </div>
 
         <div class="mb-3">

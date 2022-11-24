@@ -3,7 +3,7 @@ require("head.php");
 require('header.php');
 ?>
 <main>
-    <div class="title-biere">
+    <div class="title-fish">
         <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
         <span class="title">Pêche Passion</span>
         <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">

@@ -4,7 +4,7 @@ require("header.php");
 ?>
 <main>
     <div class="container-legalnotice">
-        <div class="title-biere">
+        <div class="title-fish">
             <img class="logo-wave1" src="..\assets\img\Fish\vague_gauche-sf.png" alt="img-left-wave">
             <span class="title">Pêche Passion</span>
             <img class="logo-wave2" src="..\assets\img\Fish\vague_droite-sf.png" alt="img-right-wave">
@@ -13,7 +13,7 @@ require("header.php");
             <h2>Guide de pêche</h2>
         </div>
         <hr>
-        <div class="title-biere-legalnotice">
+        <div class="title-fish-legalnotice">
             <h1>Mentions légales</h1>
         </div>
 

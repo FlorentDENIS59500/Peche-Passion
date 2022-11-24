@@ -80,7 +80,7 @@
     padding: 20px 20px 20px 20px;
 }
 
-.title-biere{
+.title-fish{
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -94,32 +94,32 @@
     width: 50%;
     margin-left: 25%;
 }
-.title-biere {
-    grid-area: title-biere;
+.title-fish {
+    grid-area: title-fish;
     text-align: center;
     font-size: 70px;
 }
 .desc { grid-area: desc; }
 @media screen and (max-width: 1200px) {
   .txt{font-size: 15px}
-  .title-biere span{font-size: 50px}
+  .title-fish span{font-size: 50px}
   .subtitle{font-size: 22px;}
   .desc {margin-left: 15%; width: 70%;margin-top: 46%;}
 }
 @media screen and (max-width: 950px) {
   .txt {font-size: 14px}
-  .title-biere span{font-size: 30px}
+  .title-fish span{font-size: 30px}
   .subtitle{font-size: 15px;}
   .desc {margin-left: 15%; width: 70%;margin-top: 48%;}
 }
 @media screen and (max-width: 700px) {
   .txt {font-size: 13px}
-  .title-biere span {font-size: 25px}
+  .title-fish span {font-size: 25px}
   .subtitle {font-size: 12px;}
   .desc {margin-left: 15%; width: 70%;margin-top: 50%;}
 }
 @media screen and (max-width: 450px) {
   .txt {font-size: 11px}
-  .title-biere span{font-size: 18px}
+  .title-fish span{font-size: 18px}
   .subtitle{font-size: 10px;}
 }

@@ -20,7 +20,7 @@ require("head.php");
 <?php
 require('header-admin.php');
 ?>
-<div class="show-resa-title-biere-second">
+<div class="show-resa-title-fish-second">
     <h4>Reservation n° : <?= $id_resa ?> bien supprimée</h4>
 </div>
 <?php
