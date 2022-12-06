@@ -1,11 +1,13 @@
 .img-peche-mouche {
     width: 100%;
 }
-.container_tarif{
+
+.container_tarif {
     margin-top: 40px;
     height: 550px;
 }
-.tarifs{
+
+.tarifs {
     color: black;
     width: 1000px;
     height: 400px;
@@ -16,56 +18,90 @@
     padding-top: 25px;
     font-size: small;
 }
-.tarifs h2{
+
+.tarifs h2 {
     text-align: center;
     font-size: 35px;
     font-family: 'Ballet';
 }
+
 .table_tarifs {
     width: 100%;
     margin-top: 20px;
     padding: 0px 20px 0px 20px;
 }
+
 .titre_tarif1 {
     border: 1px solid black;
     font-size: xx-large;
     width: 60%;
-    height: 40px;
+    height: 60px;
 }
+
 .titre_tarif2 {
     border: 1px solid black;
-    font-size: xx-large;
+    font-size: x-large;
     width: 20%;
-    height: 40px;
+    height: 60px;
 }
+
 .titre_tarif3 {
     border: 1px solid black;
-    font-size: xx-large;
+    font-size: x-large;
     width: 20%;
-    height: 40px;
+    height: 60px;
 }
-.tarif-col1, .tarif-col2, .tarif-col3 {
+
+.tarif-col1,
+.tarif-col2,
+.tarif-col3 {
     font-size: large;
     height: 40px;
     border: 1px solid black;
 }
+
 .tarif-col1 {
     text-align: left;
     padding-left: 10px;
 }
+
 .minfooter {
     height: 60px;
-}   
-@media screen and (max-width: 1200px) { 
-    .tarifs {width: 700px;}
-    }
-@media screen and (max-width: 900px) { 
-    .tarifs {width: 500px;}
 }
-@media screen and (max-width: 600px) {   
-    .tarifs {width: 300px; height: 400px}
-    .titre_tarif1 {font-size: medium}
-    .titre_tarif2 {font-size: medium}
-    .titre_tarif3 {font-size: medium}
-    .tarif-col1, .tarif-col2, .tarif-col3 {font-size: medium}
+
+@media screen and (max-width: 1200px) {
+    .tarifs {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .tarifs {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tarifs {
+        width: 300px;
+        height: 400px
+    }
+
+    .titre_tarif1 {
+        font-size: medium
+    }
+
+    .titre_tarif2 {
+        font-size: medium
+    }
+
+    .titre_tarif3 {
+        font-size: medium
+    }
+
+    .tarif-col1,
+    .tarif-col2,
+    .tarif-col3 {
+        font-size: medium
+    }
 }

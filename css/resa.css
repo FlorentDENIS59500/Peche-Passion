@@ -1,11 +1,13 @@
 .img-bass-boat {
     width: 100%;
 }
-.container_resa{
+
+.container_resa {
     margin-top: 40px;
     height: 410px;
 }
-.reservation{
+
+.reservation {
     color: black;
     width: 660px;
     height: 370px;
@@ -17,37 +19,46 @@
     padding-top: 10px;
     font-size: small;
 }
-.cont1{
+
+.cont1 {
     padding-left: 25px;
 }
-.cont2{
+
+.cont2 {
     padding-left: 10px;
 }
-.resa{
+
+.resa {
     width: 100%;
 }
-.form-resa{
+
+.form-resa {
     margin: auto;
     padding: 10px 0px 0px 20px;
     display: flex;
     flex-wrap: wrap;
 }
-.form-resa>div{
+
+.form-resa>div {
     flex: 40%;
 }
-.reservation h4{
+
+.reservation h4 {
     height: 55px;
     text-align: center;
     font-size: 40px;
     font-family: 'Ballet';
 }
-.form-resa input, .form-resa textarea{
+
+.form-resa input,
+.form-resa textarea {
     display: block;
     margin-top: 10px;
     padding: 5px;
     width: 250px;
     font-size: 16px;
 }
+
 .form-resa input[type="submit"] {
     text-align: center;
     width: auto;
@@ -55,43 +66,100 @@
     margin: auto;
     margin-top: 10px;
 }
-#Date_Resa{
+
+#Date_Resa {
     color: grey;
 }
-.reserver{
+
+.reserver {
     width: 120px;
     height: 40px;
     font-size: x-large;
 }
+
 .error-mailto-resa {
     padding: 25px;
     text-align: center;
     color: red;
     font-size: 20px;
 }
+
 .ok-mailto-resa {
     padding: 25px;
     text-align: center;
     color: green;
     font-size: 20px;
 }
+
 .foot {
-    height: 70px;
+    height: 85px;
 }
-@media screen and (max-width: 900px) { 
-    .reservation {width: 500px}
-    .form-resa input, .form-resa textarea{width: 180px}
-    .cont2{padding-left: 10px} 
-    .error-mailto-resa { font-size: 15px; font-weight: bold}
-    .ok-mailto-resa { font-size: 15px; font-weight: bold}
-    .form-resa input, .form-resa textarea{ font-size: 14px}
+
+@media screen and (max-width: 900px) {
+    .reservation {
+        width: 500px
+    }
+
+    .form-resa input,
+    .form-resa textarea {
+        width: 180px
+    }
+
+    .cont2 {
+        padding-left: 10px
+    }
+
+    .error-mailto-resa {
+        font-size: 15px;
+        font-weight: bold
+    }
+
+    .ok-mailto-resa {
+        font-size: 15px;
+        font-weight: bold
+    }
+
+    .form-resa input,
+    .form-resa textarea {
+        font-size: 14px
+    }
 }
+
 @media screen and (max-width: 600px) {
-    .reservation {width: 300px; height: 670px}
-    .form-resa input, .form-resa textarea{width: 180px}
-    .cont1{padding-top: 10px; font-size: 25px; font-weight: bold}
-    .cont2{padding-left: 25px; padding-top: 20px; font-size: 15px; font-weight: bold}
-    .error-mailto-resa { font-size: 12px; font-weight: bold}
-    .ok-mailto-resa { font-size: 12px; font-weight: bold}
-    .foot{height: 40px;}
+    .reservation {
+        width: 300px;
+        height: 670px
+    }
+
+    .form-resa input,
+    .form-resa textarea {
+        width: 180px
+    }
+
+    .cont1 {
+        padding-top: 10px;
+        font-size: 25px;
+        font-weight: bold
+    }
+
+    .cont2 {
+        padding-left: 25px;
+        padding-top: 20px;
+        font-size: 15px;
+        font-weight: bold
+    }
+
+    .error-mailto-resa {
+        font-size: 12px;
+        font-weight: bold
+    }
+
+    .ok-mailto-resa {
+        font-size: 12px;
+        font-weight: bold
+    }
+
+    .foot {
+        height: 40px;
+    }
 }

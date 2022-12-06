@@ -17,7 +17,7 @@ require('header.php');
             <img src="..\assets\img\background\coregone.jpg" alt="img-coregone" alt="" class="pic">
             <img src="..\assets\img\background\brochet3.jpg" alt="img-brochet3" alt="" class="pic">
             <img src="..\assets\img\background\bass-boat2.jpg" alt="img-bass-boat" alt="" class="pic">
-            <img src="..\assets\img\background\sandre.jpg" alt="img-sandre" alt="" class="pic">
+            <img src="..\assets\img\background\sandre2.jpg" alt="img-sandre" alt="" class="pic">
             <img src="..\assets\img\background\peche-mouche.jpg" alt="img-peche-mouche" alt="" class="pic">
         </div>
         <div class="desc">

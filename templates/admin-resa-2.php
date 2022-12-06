@@ -22,41 +22,41 @@ require("head.php");
 require('header-admin.php');
 ?>
 <div class="show-resa-title-fish-second">
-    <h4>Voici le détail de la reservation n° : <?= $id_resa ?></h4>
+    <h1>Voici le détail de la reservation n° : <?= $id_resa ?></h1>
 </div>
 <div class="show-resa">
     <table>
         <tbody>
             <tr>
-                <td class="name"><?= $results->NOM ?></td>
+                <td class="name">Nom : <?= $results->NOM ?></td>
             </tr>
             <tr>
-                <td class="firstname"><?= $results->PRENOM ?></td>
+                <td class="firstname">Prénom : <?= $results->PRENOM ?></td>
             </tr>
             <tr>
-                <td class="phone"><?= $results->TELEPHONE ?></td>
+                <td class="phone">Téléphone : <?= $results->TELEPHONE ?></td>
             </tr>
             <tr>
-                <td class="email"><?= $results->EMAIL ?></td>
+                <td class="email">Email : <?= $results->EMAIL ?></td>
             </tr>
             <tr>
-                <td class="date"><?= $results->DATES ?></td>
+                <td class="date">Date : <?= $results->DATES ?></td>
             </tr>
             <tr>
-                <td class="number"><?= $results->NOMBRE_PERS ?></td>
+                <td class="number">Nombre de pers. : <?= $results->NOMBRE_PERS ?></td>
             </tr>
             <tr>
-                <td class="message" colspan="3"><?= $results->MESSAGES ?></td>
+                <td class="message" colspan="3">Message : <?= $results->MESSAGES ?></td>
             </tr>
         </tbody>
     </table>
 </div>
-<form method="post" action="admin-resa-3.php?id_resa=<?= $id_resa ?>">
-    <div class="mb-3">
+<form method="post" action="admin-resa-3.php?id_resa=<?= $id_resa ?>" class="form2">
+    <div class="mb-1">
         <button type="submit" class="btn btn-primary">Supprimer réservation</button>
     </div>
-    <div class="mb-3">
-        <button type="button"><a href="admin-resa.php">Retourner a la liste</a></button>
+    <div class="mb-1">
+        <button type="button" class="btn btn-primary"><a href="admin-resa.php" style="color: red">Retourner a la liste</a></button>
     </div>
 </form>
 </div>

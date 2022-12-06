@@ -22,24 +22,34 @@ require('header-admin.php');
 </div>
 <div class="add-photo">
     <form method="post" class="form-frame" action="admin-add-2.php">
-        <div class="mb-3">
+        <div class="mb-1">
             <label for="title-fish-second" class="form-label">Titre :</label>
             <input type="text" class="form-control" id="NOM_PHOTO" name="NOM_PHOTO" required>
         </div>
-        <div class="mb-3">
-            <label for="refimg" class="form-label">Photo :</label>
+        <div class="mb-1">
+            <label for="type-fish-second" class="form-label">Type :</label>
+            <select class="form2-select" id="TYPE_PHOTO" name="TYPE_PHOTO" required>
+                <option value="bass-boat">Bass-Boat</option>
+                <option value="brochet">Brochet</option>
+                <option value="perche">Perche</option>
+                <option value="sandre">Sandre</option>
+                <option value="lavaret">Lavaret</option>
+            </select>
+        </div>
+        <div class="mb-1">
+            <label for="ref-img" class="form-label">Photo :</label>
             <input type="text" class="form-control" id="PICT_PHOTO" name="PICT_PHOTO" required>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-1">
             <label for="resume" class="form-label">Résumé :</label>
             <textarea type="text" name="Message" id="Message" rows="5" cols=35 required></textarea>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-1">
             <button type="submit" class="btn btn-primary">CREER</button>
         </div>
-        <div class="mb-3">
+        <div class="mb-1">
             <button type="button"><a class="btn btn-primary" href="admin-add.php" style="color: red">Annuler</a></button>
         </div>
     </form>

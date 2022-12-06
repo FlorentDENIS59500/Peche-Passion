@@ -6,8 +6,8 @@ require("auth.php");
 $login = new Login;
 $login->authorize();
 $ID_PHOTO = "";
-if (isset($_POST["choix2"]) || ($_POST["choix2"] != "")) {
-    $ID_PHOTO = $_POST["choix2"];
+if (isset($_GET["choix2"]) || ($_GET["choix2"] != "")) {
+    $ID_PHOTO = $_GET["choix2"];
 } else {
     header('Location: admin-remove.php');
 }
@@ -28,14 +28,15 @@ if ($results) {
     $db = disconnectDb();
 ?>
     <div>
-        <p>Bière supprimer avec succès</p>
+        <h1 class="add2-photo">La photo à été supprimée avec succès</h1>
+        <?php header("refresh:3;url=admin-remove"); ?>
     </div>
 <?php
 } else {
 ?>
     <div>
         <?php
-        var_dump($_POST["choix2"]);
+        var_dump($_GET["choix2"]);
         var_dump($results);
         var_dump($ID_PHOTO); ?>
         <h2>Erreur dans la suppression !</h2>

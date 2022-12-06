@@ -17,11 +17,11 @@ require('header-admin.php');
     <img src="..\assets\img\background\bass-boat3.jpg" class="img-bass-boat" alt="img-bass-boat3">
 </div>
 <div class="show-resa">
-    <H2>Voici la liste des réservation en cours !</H2>
+    <H1>Liste des réservations en cours</H1>
 </div>
 <div class="show-resa">
-    <form method="post" action="admin-resa-2.php">
-        <div class="mb-3">
+    <form class="form-frame"method="post" action="admin-resa-2.php">
+        <div class="mb-2">
             <H3 class="form-label">Selectionnez une reservation :</H3>
         </div>
         <select class="form-select" id="idresa" name="idresa">
@@ -33,16 +33,15 @@ require('header-admin.php');
             }
             ?>
         </select>
-        <div class="mb-3">
+        <div class="mb-2">
             <button type="submit" class="btn btn-primary">Confirmer selection</button>
         </div>
-        <div class="mb-3">
+        <div class="mb-2">
             <button type="button"><a href="admin-resa.php" class="btn btn-primary" style="color: red">Annuler</a></button>
         </div>
     </form>
 </div>
-
-
+<div class="foot"></div>
 <?php
 require 'footer.php';
 ?>

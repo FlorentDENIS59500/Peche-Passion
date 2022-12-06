@@ -4,10 +4,10 @@ require('header.php');
 require "../src/model.php";
 ?>
 <?php
-function showFish($typeBeer)
+function showFish($typeFish)
 {
     $db = connectDb();
-    $sqlRequest = 'SELECT PICT_PHOTO, NOM_PHOTO, DESC_PHOTO FROM photo WHERE TYPE_PHOTO ="' . $typeBeer . '"';
+    $sqlRequest = 'SELECT PICT_PHOTO, NOM_PHOTO, DESC_PHOTO FROM photo WHERE TYPE_PHOTO ="' . $typeFish . '"';
     $sqlResponse = $db->prepare($sqlRequest);
     $sqlResponse->execute();
     $results = $sqlResponse->fetchAll(PDO::FETCH_OBJ);
@@ -22,8 +22,11 @@ function showFish($typeBeer)
                 <tr>
                     <td class="DESC_PHOTO" colspan="2"><?= $photo->DESC_PHOTO ?></td>
                 </tr>
+                <div><img src="\pechepassion\assets\img\Background\<?= $photo->PICT_PHOTO ?>" class="PICT_PHOTO" alt="Photo de <?= $photo->NOM_PHOTO ?>"></div>
             </tbody>
         </table>
+        <hr>
+
 <?php
     }
 }

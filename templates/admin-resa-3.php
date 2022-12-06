@@ -21,7 +21,7 @@ require("head.php");
 require('header-admin.php');
 ?>
 <div class="show-resa-title-fish-second">
-    <h4>Reservation n° : <?= $id_resa ?> bien supprimée</h4>
+    <h1>Reservation n° : <?= $id_resa ?> bien supprimée</h1>
 </div>
 <?php
 header("refresh:3;url=admin-resa.php");

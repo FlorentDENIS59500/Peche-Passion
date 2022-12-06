@@ -58,7 +58,7 @@ function formatEmail(inputDeclancheur) {
         } else {
             if (regExEmail.test(inputDeclancheur.value) == false) {
                 window.alert("Votre adresse mail n'est pas valide");
-                inputDeclancheur.focus();      
+                inputDeclancheur.focus();
                 erreurDetectee = true;
                 return false;
             }
@@ -70,14 +70,14 @@ function formatEmail(inputDeclancheur) {
 
 function envoyerFormulaire() {
 
-    if (saisieObligatoire(document.getElementById("Nom")) == false || 
-    saisieObligatoire(document.getElementById("Prenom")) == false || 
-    saisieObligatoire(document.getElementById("Email")) == false ||
-    saisieObligatoire(document.getElementById("Telephone")) == false ||
-    formatNomPrenom(document.getElementById("Nom")) == false || 
-    formatNomPrenom(document.getElementById("Prenom")) == false || 
-    formatEmail(document.getElementById("Email")) == false || 
-    controleNumTel(document.getElementById("Telephone")) == false) {
+    if (saisieObligatoire(document.getElementById("NOM")) == false ||
+        saisieObligatoire(document.getElementById("PRENOM")) == false ||
+        saisieObligatoire(document.getElementById("EMAIL")) == false ||
+        saisieObligatoire(document.getElementById("TELEPHONE")) == false ||
+        formatNomPrenom(document.getElementById("NOM")) == false ||
+        formatNomPrenom(document.getElementById("PRENOM")) == false ||
+        formatEmail(document.getElementById("EMAIL")) == false ||
+        controleNumTel(document.getElementById("TELEPHONE")) == false) {
         window.alert("Erreur dans le formulaire");
         return false;
     } else {
@@ -88,26 +88,26 @@ function envoyerFormulaire() {
 window.addEventListener('load', function () {
     "use strict";
 
-    document.getElementById('Nom').addEventListener('blur',function(){saisieObligatoire(this)});
+    document.getElementById('NOM').addEventListener('blur', function () { saisieObligatoire(this) });
 
-    document.getElementById('Prenom').addEventListener('blur',function(){saisieObligatoire(this)});
+    document.getElementById('PRENOM').addEventListener('blur', function () { saisieObligatoire(this) });
 
-    document.getElementById('Telephone').addEventListener('blur',function(){saisieObligatoire(this)});
+    document.getElementById('TELEPHONE').addEventListener('blur', function () { saisieObligatoire(this) });
 
-    document.getElementById('Email').addEventListener('blur',function(){saisieObligatoire(this)});
+    document.getElementById('EMAIL').addEventListener('blur', function () { saisieObligatoire(this) });
 
-    document.getElementById('Nom').addEventListener('change',function(){formatNomPrenom(this)});
+    document.getElementById('NOM').addEventListener('change', function () { formatNomPrenom(this) });
 
-    document.getElementById('Prenom').addEventListener('change',function(){formatNomPrenom(this)});
-    
-    document.getElementById('Email').addEventListener('change',function(){formatEmail(this)});
-    
-    document.getElementById('Telephone').addEventListener('change',function(){controleNumTel(this)});
+    document.getElementById('PRENOM').addEventListener('change', function () { formatNomPrenom(this) });
 
-    document.getElementById('formulaire').addEventListener('submit',function(e){
+    document.getElementById('EMAIL').addEventListener('change', function () { formatEmail(this) });
+
+    document.getElementById('TELEPHONE').addEventListener('change', function () { controleNumTel(this) });
+
+    document.getElementById('formulaire').addEventListener('submit', function (e) {
         let etatFormulaire = envoyerFormulaire();
-        if (!etatFormulaire){ 
-            e.preventDefault(); 
+        if (!etatFormulaire) {
+            e.preventDefault();
         }
     });
 });

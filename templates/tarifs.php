@@ -20,8 +20,8 @@ require('header.php');
             <table class="table_tarifs">
                 <tr>
                     <th class="titre_tarif1">Descriptif</th>
-                    <th class="titre_tarif2">Journée</th>
-                    <th class="titre_tarif3">1/2 Journée</th>
+                    <th class="titre_tarif2">Journée (07h00-17h00)</th>
+                    <th class="titre_tarif3">1/2 Journée (07h00-12h00)</th>
                 </tr>
                 <tr>
                     <th class="tarif-col1">Pêche Débutant (Initiation aux techniques de pêche)</th>

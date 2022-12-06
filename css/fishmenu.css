@@ -1,66 +1,85 @@
-.table-photomenu td {
-  border-radius: 15px;
-}
 .NOM_PHOTO {
-  font-size: x-large;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.DESC_PHOTO {
+  font-size: 25px;
   text-align: left;
 }
+
+.PICT_PHOTO {
+  width: 45%;
+  height: auto;
+}
+
 .desc_fish {
   font-size: large;
   text-align: justify;
   padding: 15px;
 }
+
 .menum a {
   text-decoration: none;
 }
+
 .table-photomenu {
-  border: 1px solid #333;
-  border-radius: 15px;
-  font-size: small;
-  display: inline-flex;
-  border-radius: 10px;
-  color: white;
-  margin-bottom: 2em;
-  width: 19%;
-  background-color: rgb(92, 87, 232);
+  font-family: Century gothic;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  margin-bottom: 40px;
+  width: 60%;
+  height: 30%;
 }
+
 .table-photomenu img {
-  height: 170px;
+  height: 300px;
 }
+
 .tr_img {
-  height: 170px;
+  height: 300px;
 }
+
 #bass-boat {
   display: block;
   margin: 4%;
+  text-align: center;
 }
+
 @media (min-width: 1000px) {
   .menum {
     font-size: larger;
   }
 }
+
 @media (min-width: 500px) and (max-width: 1580px) {
   .menum {
     font-size: small;
   }
+
   table {
     margin-bottom: 1em;
     width: 49%;
   }
 }
+
 @media (max-width: 500px) {
   .menum {
     font-size: x-small;
   }
+
   .menum li:hover {
     transition: 0.3s ease;
     letter-spacing: 1px;
   }
+
   table {
     margin-bottom: 1em;
-    width: 99%;
+    width: 50%;
   }
 }
+
 .menum a {
   color: white;
 }
@@ -70,6 +89,7 @@
   color: white;
   list-style: none;
 }
+
 .menum {
   text-decoration: none;
   color: white;
@@ -78,6 +98,12 @@
   justify-content: center;
   background-color: rgb(92, 87, 232);
 }
+
 .menum li {
   padding: 15px 24px;
+}
+
+hr {
+  margin-bottom: 50px;
+  color: #8278f4;
 }

@@ -85,7 +85,7 @@ if (isset($_POST['submit-form-resa'])) {
                     <br>
                     <input type="number" name="NOMBRE_PERS" min="1" max="2" id="NOMBRE_PERS" placeholder="Nombre de personnes" size="1" required />
                     <br>
-                    <textarea type="text" name="MESSAGES" id="MESSAGES" placeholder="Message" rows="4" cols=40></textarea>
+                    <textarea type="text" name="MESSAGES" id="MESSAGES" placeholder="Merci de bien vouloir préciser si vous réservez pour la journée ou la demi-journée." rows="4" cols=40></textarea>
                     <br>
                 </div>
                 <div class="btn resa">

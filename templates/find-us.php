@@ -12,7 +12,7 @@ require('header.php');
         <h2>Guide de pêche</h2>
     </div>
     <div class="photo-pub">
-        <img src="..\assets\img\background\bass-boat4.jpg" class="img-bass-boat4" alt="img-bass-boat4">
+        <img src="..\assets\img\background\bass-boat1.jpg" class="img-bass-boat1" alt="img-bass-boat1">
     </div>
     <div class="container-find-us">
         <div class="find-us">
